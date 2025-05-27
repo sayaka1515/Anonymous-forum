@@ -1,0 +1,6 @@
+Flask==2.3.2
+Flask-SQLAlchemy==3.0.3
+Flask-Login==0.6.2
+Flask-Uploads==0.2.1
+Pillow==9.5.0
+Werkzeug==2.3.6

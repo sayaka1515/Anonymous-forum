@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>發布貼文</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        .preview-container {
+            margin-top: 10px;
+            display: none;
+        }
+        .preview-container img, .preview-container video {
+            max-width: 300px;
+            max-height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>匿名論壇</h1>
+        <nav>
+            <a href="{{ url_for('user_profile', user_id=current_user.id) }}">
+                {% if current_user.avatar_path and current_user.avatar_path|length > 0 %}
+                    <img src="{{ url_for('static', filename=current_user.avatar_path) }}" class="nav-avatar" alt="用戶頭像">
+                {% else %}
+                    <span>{{ current_user.username }}</span>
+                {% endif %}
+            </a>
+            <a href="{{ url_for('logout') }}">登出</a>
+            {% if current_user.is_admin %}
+                <a href="{{ url_for('create_board') }}">創建討論版</a>
+            {% endif %}
+            <a href="{{ url_for('index') }}">返回首頁</a>
+        </nav>
+    </header>
+    <main>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul class="flash-messages">
+                    {% for message in messages %}
+                        <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+        <h2>發布新貼文</h2>
+        <form action="{{ url_for('create_post') }}" method="POST" enctype="multipart/form-data" id="postForm">
+            <label for="board_id">選擇討論版：</label>
+            <select name="board_id" id="board_id" required>
+                {% for board in boards %}
+                    <option value="{{ board.id }}">{{ board.name }}</option>
+                {% endfor %}
+            </select>
+            <label for="title">標題：</label>
+            <input type="text" name="title" id="title" required>
+            <label for="content">內容：</label>
+            <textarea name="content" id="content" required></textarea>
+            <label for="media">上傳媒體（圖片或影片，支援 .png, .jpg, .jpeg, .gif, .mp4）：</label>
+            <input type="file" name="media" id="media" accept="image/png,image/jpeg,image/gif,video/mp4" onchange="previewMedia()">
+            <div class="preview-container" id="preview">
+                <p>預覽：</p>
+            </div>
+            <button type="submit">發布貼文</button>
+        </form>
+    </main>
+    <script>
+        function previewMedia() {
+            const preview = document.getElementById('preview');
+            const fileInput = document.getElementById('media');
+            const file = fileInput.files[0];
+            preview.style.display = 'block';
+            preview.innerHTML = '<p>預覽：</p>';
+
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const extension = file.name.split('.').pop().toLowerCase();
+                    if (['png', 'jpg', 'jpeg', 'gif'].includes(extension)) {
+                        const img = document.createElement('img');
+                        img.src = e.target.result;
+                        preview.appendChild(img);
+                    } else if (extension === 'mp4') {
+                        const video = document.createElement('video');
+                        video.src = e.target.result;
+                        video.controls = true;
+                        preview.appendChild(video);
+                    }
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+    </script>
+</body>
+</html>

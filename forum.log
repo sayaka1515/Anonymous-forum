@@ -1,0 +1,1422 @@
+2025-05-27 19:56:16,413 - WARNING -  * Debugger is active!
+2025-05-27 19:56:16,416 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 20:03:55,748 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 20:03:55,748 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 20:03:55,749 - INFO -  * Restarting with stat
+2025-05-27 20:03:56,189 - WARNING -  * Debugger is active!
+2025-05-27 20:03:56,192 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 20:03:59,664 - INFO - 127.0.0.1 - - [27/May/2025 20:03:59] "GET / HTTP/1.1" 200 -
+2025-05-27 20:03:59,682 - INFO - 127.0.0.1 - - [27/May/2025 20:03:59] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:03:59,683 - INFO - 127.0.0.1 - - [27/May/2025 20:03:59] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:03:59,779 - INFO - 127.0.0.1 - - [27/May/2025 20:03:59] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:03:59,781 - INFO - 127.0.0.1 - - [27/May/2025 20:03:59] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:03:59,782 - INFO - 127.0.0.1 - - [27/May/2025 20:03:59] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:03:59,974 - INFO - 127.0.0.1 - - [27/May/2025 20:03:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:04:00,037 - INFO - 127.0.0.1 - - [27/May/2025 20:04:00] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:04:01,704 - INFO - 127.0.0.1 - - [27/May/2025 20:04:01] "GET /post/8 HTTP/1.1" 200 -
+2025-05-27 20:04:01,719 - INFO - 127.0.0.1 - - [27/May/2025 20:04:01] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:04:01,720 - INFO - 127.0.0.1 - - [27/May/2025 20:04:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:04:01,721 - INFO - 127.0.0.1 - - [27/May/2025 20:04:01] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:04:03,457 - INFO - 127.0.0.1 - - [27/May/2025 20:04:03] "GET / HTTP/1.1" 200 -
+2025-05-27 20:04:03,472 - INFO - 127.0.0.1 - - [27/May/2025 20:04:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:04:03,473 - INFO - 127.0.0.1 - - [27/May/2025 20:04:03] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:04:03,474 - INFO - 127.0.0.1 - - [27/May/2025 20:04:03] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:04:03,500 - INFO - 127.0.0.1 - - [27/May/2025 20:04:03] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:04:03,501 - INFO - 127.0.0.1 - - [27/May/2025 20:04:03] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:04:03,503 - INFO - 127.0.0.1 - - [27/May/2025 20:04:03] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:04:03,504 - INFO - 127.0.0.1 - - [27/May/2025 20:04:03] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:04:05,369 - INFO - 127.0.0.1 - - [27/May/2025 20:04:05] "GET /post/4 HTTP/1.1" 200 -
+2025-05-27 20:04:05,384 - INFO - 127.0.0.1 - - [27/May/2025 20:04:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:04:05,384 - INFO - 127.0.0.1 - - [27/May/2025 20:04:05] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:04:05,386 - INFO - 127.0.0.1 - - [27/May/2025 20:04:05] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:04:47,024 - INFO - 127.0.0.1 - - [27/May/2025 20:04:47] "GET /static/uploads/f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1" 200 -
+2025-05-27 20:04:50,739 - INFO - 127.0.0.1 - - [27/May/2025 20:04:50] "GET / HTTP/1.1" 200 -
+2025-05-27 20:04:50,754 - INFO - 127.0.0.1 - - [27/May/2025 20:04:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:04:50,756 - INFO - 127.0.0.1 - - [27/May/2025 20:04:50] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:04:50,757 - INFO - 127.0.0.1 - - [27/May/2025 20:04:50] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:04:50,787 - INFO - 127.0.0.1 - - [27/May/2025 20:04:50] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:04:50,789 - INFO - 127.0.0.1 - - [27/May/2025 20:04:50] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:04:50,792 - INFO - 127.0.0.1 - - [27/May/2025 20:04:50] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:04:50,793 - INFO - 127.0.0.1 - - [27/May/2025 20:04:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:04:54,180 - INFO - 127.0.0.1 - - [27/May/2025 20:04:54] "GET / HTTP/1.1" 200 -
+2025-05-27 20:04:54,197 - INFO - 127.0.0.1 - - [27/May/2025 20:04:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:04:54,197 - INFO - 127.0.0.1 - - [27/May/2025 20:04:54] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:04:54,198 - INFO - 127.0.0.1 - - [27/May/2025 20:04:54] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:04:54,223 - INFO - 127.0.0.1 - - [27/May/2025 20:04:54] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:04:54,224 - INFO - 127.0.0.1 - - [27/May/2025 20:04:54] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:04:54,226 - INFO - 127.0.0.1 - - [27/May/2025 20:04:54] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:04:54,228 - INFO - 127.0.0.1 - - [27/May/2025 20:04:54] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:04:54,912 - INFO - 127.0.0.1 - - [27/May/2025 20:04:54] "GET / HTTP/1.1" 200 -
+2025-05-27 20:04:54,930 - INFO - 127.0.0.1 - - [27/May/2025 20:04:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:04:54,930 - INFO - 127.0.0.1 - - [27/May/2025 20:04:54] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:04:54,931 - INFO - 127.0.0.1 - - [27/May/2025 20:04:54] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:04:54,954 - INFO - 127.0.0.1 - - [27/May/2025 20:04:54] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:04:54,955 - INFO - 127.0.0.1 - - [27/May/2025 20:04:54] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:04:54,958 - INFO - 127.0.0.1 - - [27/May/2025 20:04:54] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:04:54,959 - INFO - 127.0.0.1 - - [27/May/2025 20:04:54] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:04:55,201 - INFO - 127.0.0.1 - - [27/May/2025 20:04:55] "GET / HTTP/1.1" 200 -
+2025-05-27 20:04:55,218 - INFO - 127.0.0.1 - - [27/May/2025 20:04:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:04:55,218 - INFO - 127.0.0.1 - - [27/May/2025 20:04:55] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:04:55,220 - INFO - 127.0.0.1 - - [27/May/2025 20:04:55] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:04:55,244 - INFO - 127.0.0.1 - - [27/May/2025 20:04:55] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:04:55,245 - INFO - 127.0.0.1 - - [27/May/2025 20:04:55] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:04:55,246 - INFO - 127.0.0.1 - - [27/May/2025 20:04:55] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:04:55,248 - INFO - 127.0.0.1 - - [27/May/2025 20:04:55] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:04:55,473 - INFO - 127.0.0.1 - - [27/May/2025 20:04:55] "GET / HTTP/1.1" 200 -
+2025-05-27 20:04:55,486 - INFO - 127.0.0.1 - - [27/May/2025 20:04:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:04:55,487 - INFO - 127.0.0.1 - - [27/May/2025 20:04:55] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:04:55,488 - INFO - 127.0.0.1 - - [27/May/2025 20:04:55] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:04:55,514 - INFO - 127.0.0.1 - - [27/May/2025 20:04:55] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:04:55,515 - INFO - 127.0.0.1 - - [27/May/2025 20:04:55] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:04:55,516 - INFO - 127.0.0.1 - - [27/May/2025 20:04:55] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:04:55,518 - INFO - 127.0.0.1 - - [27/May/2025 20:04:55] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:04:56,784 - INFO - 127.0.0.1 - - [27/May/2025 20:04:56] "GET /post/4 HTTP/1.1" 200 -
+2025-05-27 20:04:56,799 - INFO - 127.0.0.1 - - [27/May/2025 20:04:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:04:56,800 - INFO - 127.0.0.1 - - [27/May/2025 20:04:56] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:04:56,802 - INFO - 127.0.0.1 - - [27/May/2025 20:04:56] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:04:58,378 - INFO - 127.0.0.1 - - [27/May/2025 20:04:58] "GET / HTTP/1.1" 200 -
+2025-05-27 20:04:58,397 - INFO - 127.0.0.1 - - [27/May/2025 20:04:58] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:04:58,398 - INFO - 127.0.0.1 - - [27/May/2025 20:04:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:04:58,399 - INFO - 127.0.0.1 - - [27/May/2025 20:04:58] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:04:58,422 - INFO - 127.0.0.1 - - [27/May/2025 20:04:58] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:04:58,424 - INFO - 127.0.0.1 - - [27/May/2025 20:04:58] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:04:58,426 - INFO - 127.0.0.1 - - [27/May/2025 20:04:58] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:04:58,428 - INFO - 127.0.0.1 - - [27/May/2025 20:04:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:11:47,889 - INFO - 127.0.0.1 - - [27/May/2025 20:11:47] "GET / HTTP/1.1" 200 -
+2025-05-27 20:11:47,910 - INFO - 127.0.0.1 - - [27/May/2025 20:11:47] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:11:47,910 - INFO - 127.0.0.1 - - [27/May/2025 20:11:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:11:47,914 - INFO - 127.0.0.1 - - [27/May/2025 20:11:47] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:11:47,940 - INFO - 127.0.0.1 - - [27/May/2025 20:11:47] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:11:47,942 - INFO - 127.0.0.1 - - [27/May/2025 20:11:47] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:11:47,943 - INFO - 127.0.0.1 - - [27/May/2025 20:11:47] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:11:47,945 - INFO - 127.0.0.1 - - [27/May/2025 20:11:47] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:12:50,827 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 20:12:50,827 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 20:12:50,828 - INFO -  * Restarting with stat
+2025-05-27 20:12:51,264 - WARNING -  * Debugger is active!
+2025-05-27 20:12:51,267 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 20:12:57,141 - INFO - 127.0.0.1 - - [27/May/2025 20:12:57] "GET / HTTP/1.1" 200 -
+2025-05-27 20:12:57,157 - INFO - 127.0.0.1 - - [27/May/2025 20:12:57] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:12:57,158 - INFO - 127.0.0.1 - - [27/May/2025 20:12:57] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:12:57,251 - INFO - 127.0.0.1 - - [27/May/2025 20:12:57] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:12:57,253 - INFO - 127.0.0.1 - - [27/May/2025 20:12:57] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:12:57,255 - INFO - 127.0.0.1 - - [27/May/2025 20:12:57] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:12:57,499 - INFO - 127.0.0.1 - - [27/May/2025 20:12:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:12:57,594 - INFO - 127.0.0.1 - - [27/May/2025 20:12:57] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:13:00,736 - INFO - 127.0.0.1 - - [27/May/2025 20:13:00] "GET /post/4 HTTP/1.1" 200 -
+2025-05-27 20:13:00,750 - INFO - 127.0.0.1 - - [27/May/2025 20:13:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:13:00,751 - INFO - 127.0.0.1 - - [27/May/2025 20:13:00] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:13:00,753 - INFO - 127.0.0.1 - - [27/May/2025 20:13:00] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:15:19,459 - INFO - 127.0.0.1 - - [27/May/2025 20:15:19] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 20:15:19,482 - INFO - 127.0.0.1 - - [27/May/2025 20:15:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:15:19,484 - INFO - 127.0.0.1 - - [27/May/2025 20:15:19] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:15:27,353 - DEBUG - Received file: yilis.gif
+2025-05-27 20:15:27,355 - DEBUG - Saved image to: static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif
+2025-05-27 20:15:27,362 - DEBUG - Post created with image_path: uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif
+2025-05-27 20:15:27,363 - INFO - 127.0.0.1 - - [27/May/2025 20:15:27] "[32mPOST /post/new HTTP/1.1[0m" 302 -
+2025-05-27 20:15:27,368 - INFO - 127.0.0.1 - - [27/May/2025 20:15:27] "GET / HTTP/1.1" 200 -
+2025-05-27 20:15:27,386 - INFO - 127.0.0.1 - - [27/May/2025 20:15:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:15:27,387 - INFO - 127.0.0.1 - - [27/May/2025 20:15:27] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:15:27,387 - INFO - 127.0.0.1 - - [27/May/2025 20:15:27] "GET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1" 200 -
+2025-05-27 20:15:27,412 - INFO - 127.0.0.1 - - [27/May/2025 20:15:27] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:15:27,413 - INFO - 127.0.0.1 - - [27/May/2025 20:15:27] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:15:27,415 - INFO - 127.0.0.1 - - [27/May/2025 20:15:27] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:15:27,418 - INFO - 127.0.0.1 - - [27/May/2025 20:15:27] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:15:27,418 - INFO - 127.0.0.1 - - [27/May/2025 20:15:27] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:15:37,194 - INFO - 127.0.0.1 - - [27/May/2025 20:15:37] "GET / HTTP/1.1" 200 -
+2025-05-27 20:15:37,208 - INFO - 127.0.0.1 - - [27/May/2025 20:15:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:15:37,210 - INFO - 127.0.0.1 - - [27/May/2025 20:15:37] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 20:15:37,211 - INFO - 127.0.0.1 - - [27/May/2025 20:15:37] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:15:37,235 - INFO - 127.0.0.1 - - [27/May/2025 20:15:37] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:15:37,236 - INFO - 127.0.0.1 - - [27/May/2025 20:15:37] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:15:37,237 - INFO - 127.0.0.1 - - [27/May/2025 20:15:37] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:15:37,241 - INFO - 127.0.0.1 - - [27/May/2025 20:15:37] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:15:37,241 - INFO - 127.0.0.1 - - [27/May/2025 20:15:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:15:51,561 - INFO - 127.0.0.1 - - [27/May/2025 20:15:51] "GET /post/9 HTTP/1.1" 200 -
+2025-05-27 20:15:51,576 - INFO - 127.0.0.1 - - [27/May/2025 20:15:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:15:51,581 - INFO - 127.0.0.1 - - [27/May/2025 20:15:51] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 20:15:51,582 - INFO - 127.0.0.1 - - [27/May/2025 20:15:51] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:15:54,321 - INFO - 127.0.0.1 - - [27/May/2025 20:15:54] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 20:15:54,337 - INFO - 127.0.0.1 - - [27/May/2025 20:15:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:15:54,337 - INFO - 127.0.0.1 - - [27/May/2025 20:15:54] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:16:04,432 - DEBUG - Received file: OIP.jfif
+2025-05-27 20:16:04,432 - WARNING - Invalid or unsupported file: OIP.jfif
+2025-05-27 20:16:04,436 - DEBUG - Post created with image_path: None
+2025-05-27 20:16:04,437 - INFO - 127.0.0.1 - - [27/May/2025 20:16:04] "[32mPOST /post/new HTTP/1.1[0m" 302 -
+2025-05-27 20:16:04,443 - INFO - 127.0.0.1 - - [27/May/2025 20:16:04] "GET / HTTP/1.1" 200 -
+2025-05-27 20:16:04,459 - INFO - 127.0.0.1 - - [27/May/2025 20:16:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:16:04,464 - INFO - 127.0.0.1 - - [27/May/2025 20:16:04] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:16:04,465 - INFO - 127.0.0.1 - - [27/May/2025 20:16:04] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 20:16:04,487 - INFO - 127.0.0.1 - - [27/May/2025 20:16:04] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:16:04,491 - INFO - 127.0.0.1 - - [27/May/2025 20:16:04] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:16:04,491 - INFO - 127.0.0.1 - - [27/May/2025 20:16:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:16:04,492 - INFO - 127.0.0.1 - - [27/May/2025 20:16:04] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:16:04,493 - INFO - 127.0.0.1 - - [27/May/2025 20:16:04] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:16:06,794 - INFO - 127.0.0.1 - - [27/May/2025 20:16:06] "GET /post/10 HTTP/1.1" 200 -
+2025-05-27 20:16:06,813 - INFO - 127.0.0.1 - - [27/May/2025 20:16:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:16:06,814 - INFO - 127.0.0.1 - - [27/May/2025 20:16:06] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:16:09,241 - INFO - 127.0.0.1 - - [27/May/2025 20:16:09] "GET / HTTP/1.1" 200 -
+2025-05-27 20:16:12,008 - INFO - 127.0.0.1 - - [27/May/2025 20:16:12] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 20:16:12,022 - INFO - 127.0.0.1 - - [27/May/2025 20:16:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:16:12,024 - INFO - 127.0.0.1 - - [27/May/2025 20:16:12] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:16:28,063 - DEBUG - Received file: 5bcx90539si11.png
+2025-05-27 20:16:28,068 - DEBUG - Saved image to: static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png
+2025-05-27 20:16:28,074 - DEBUG - Post created with image_path: uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png
+2025-05-27 20:16:28,075 - INFO - 127.0.0.1 - - [27/May/2025 20:16:28] "[32mPOST /post/new HTTP/1.1[0m" 302 -
+2025-05-27 20:16:28,081 - INFO - 127.0.0.1 - - [27/May/2025 20:16:28] "GET / HTTP/1.1" 200 -
+2025-05-27 20:16:28,101 - INFO - 127.0.0.1 - - [27/May/2025 20:16:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:16:28,102 - INFO - 127.0.0.1 - - [27/May/2025 20:16:28] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 20:16:28,110 - INFO - 127.0.0.1 - - [27/May/2025 20:16:28] "GET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1" 200 -
+2025-05-27 20:16:28,131 - INFO - 127.0.0.1 - - [27/May/2025 20:16:28] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:16:28,132 - INFO - 127.0.0.1 - - [27/May/2025 20:16:28] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:16:28,133 - INFO - 127.0.0.1 - - [27/May/2025 20:16:28] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:16:28,136 - INFO - 127.0.0.1 - - [27/May/2025 20:16:28] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:16:28,136 - INFO - 127.0.0.1 - - [27/May/2025 20:16:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:16:28,137 - INFO - 127.0.0.1 - - [27/May/2025 20:16:28] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:16:31,345 - INFO - 127.0.0.1 - - [27/May/2025 20:16:31] "GET /post/10 HTTP/1.1" 200 -
+2025-05-27 20:16:31,359 - INFO - 127.0.0.1 - - [27/May/2025 20:16:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:16:31,364 - INFO - 127.0.0.1 - - [27/May/2025 20:16:31] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:16:34,553 - INFO - 127.0.0.1 - - [27/May/2025 20:16:34] "GET / HTTP/1.1" 200 -
+2025-05-27 20:16:34,568 - INFO - 127.0.0.1 - - [27/May/2025 20:16:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:16:34,570 - INFO - 127.0.0.1 - - [27/May/2025 20:16:34] "[36mGET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1[0m" 304 -
+2025-05-27 20:16:34,571 - INFO - 127.0.0.1 - - [27/May/2025 20:16:34] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 20:16:34,596 - INFO - 127.0.0.1 - - [27/May/2025 20:16:34] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:16:34,597 - INFO - 127.0.0.1 - - [27/May/2025 20:16:34] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:16:34,598 - INFO - 127.0.0.1 - - [27/May/2025 20:16:34] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:16:34,602 - INFO - 127.0.0.1 - - [27/May/2025 20:16:34] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:16:34,602 - INFO - 127.0.0.1 - - [27/May/2025 20:16:34] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:16:34,603 - INFO - 127.0.0.1 - - [27/May/2025 20:16:34] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:24:50,162 - INFO - 127.0.0.1 - - [27/May/2025 20:24:50] "GET / HTTP/1.1" 200 -
+2025-05-27 20:24:50,179 - INFO - 127.0.0.1 - - [27/May/2025 20:24:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:24:50,185 - INFO - 127.0.0.1 - - [27/May/2025 20:24:50] "[36mGET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1[0m" 304 -
+2025-05-27 20:24:50,186 - INFO - 127.0.0.1 - - [27/May/2025 20:24:50] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 20:24:50,212 - INFO - 127.0.0.1 - - [27/May/2025 20:24:50] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:24:50,214 - INFO - 127.0.0.1 - - [27/May/2025 20:24:50] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:24:50,215 - INFO - 127.0.0.1 - - [27/May/2025 20:24:50] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:24:50,218 - INFO - 127.0.0.1 - - [27/May/2025 20:24:50] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:24:50,219 - INFO - 127.0.0.1 - - [27/May/2025 20:24:50] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:24:50,219 - INFO - 127.0.0.1 - - [27/May/2025 20:24:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:25:57,815 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 20:25:57,815 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 20:25:57,816 - INFO -  * Restarting with stat
+2025-05-27 20:25:58,262 - WARNING -  * Debugger is active!
+2025-05-27 20:25:58,265 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 20:26:01,335 - INFO - 127.0.0.1 - - [27/May/2025 20:26:01] "GET / HTTP/1.1" 200 -
+2025-05-27 20:26:01,450 - INFO - 127.0.0.1 - - [27/May/2025 20:26:01] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:26:01,452 - INFO - 127.0.0.1 - - [27/May/2025 20:26:01] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:26:01,454 - INFO - 127.0.0.1 - - [27/May/2025 20:26:01] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:26:01,458 - INFO - 127.0.0.1 - - [27/May/2025 20:26:01] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:26:01,460 - INFO - 127.0.0.1 - - [27/May/2025 20:26:01] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:26:01,924 - INFO - 127.0.0.1 - - [27/May/2025 20:26:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:26:01,933 - INFO - 127.0.0.1 - - [27/May/2025 20:26:01] "[36mGET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1[0m" 304 -
+2025-05-27 20:26:01,934 - INFO - 127.0.0.1 - - [27/May/2025 20:26:01] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 20:26:01,958 - INFO - 127.0.0.1 - - [27/May/2025 20:26:01] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:26:58,485 - INFO -  * Detected change in 'C:\\Users\\Yukari17\\anonymous_forum\\app.py', reloading
+2025-05-27 20:26:58,528 - INFO -  * Restarting with stat
+2025-05-27 20:32:19,450 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 20:32:19,450 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 20:32:19,451 - INFO -  * Restarting with stat
+2025-05-27 20:32:19,892 - WARNING -  * Debugger is active!
+2025-05-27 20:32:19,895 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 20:32:22,864 - INFO - 127.0.0.1 - - [27/May/2025 20:32:22] "GET / HTTP/1.1" 200 -
+2025-05-27 20:32:23,034 - INFO - 127.0.0.1 - - [27/May/2025 20:32:23] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:32:23,036 - INFO - 127.0.0.1 - - [27/May/2025 20:32:23] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:32:23,040 - INFO - 127.0.0.1 - - [27/May/2025 20:32:23] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:32:23,042 - INFO - 127.0.0.1 - - [27/May/2025 20:32:23] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:32:23,045 - INFO - 127.0.0.1 - - [27/May/2025 20:32:23] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:32:23,508 - INFO - 127.0.0.1 - - [27/May/2025 20:32:23] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 20:32:23,509 - INFO - 127.0.0.1 - - [27/May/2025 20:32:23] "[36mGET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1[0m" 304 -
+2025-05-27 20:32:23,510 - INFO - 127.0.0.1 - - [27/May/2025 20:32:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:32:23,538 - INFO - 127.0.0.1 - - [27/May/2025 20:32:23] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:34:16,369 - INFO - 127.0.0.1 - - [27/May/2025 20:34:16] "GET /post/4 HTTP/1.1" 200 -
+2025-05-27 20:34:16,392 - INFO - 127.0.0.1 - - [27/May/2025 20:34:16] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-27 20:34:16,600 - INFO - 127.0.0.1 - - [27/May/2025 20:34:16] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:34:16,694 - INFO - 127.0.0.1 - - [27/May/2025 20:34:16] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-05-27 20:34:38,831 - INFO - 127.0.0.1 - - [27/May/2025 20:34:38] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 20:34:38,844 - INFO - 127.0.0.1 - - [27/May/2025 20:34:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:34:38,849 - INFO - 127.0.0.1 - - [27/May/2025 20:34:38] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:34:50,957 - DEBUG - Received file: 095C228F438BC1A600341F09D8EF0443.png
+2025-05-27 20:34:50,961 - DEBUG - Saved image to: static/uploads/1c3de914ac98463e8db9733c4221bee4_1748349290_095C228F438BC1A600341F09D8EF0443.png
+2025-05-27 20:34:50,969 - DEBUG - Post created with image_path: uploads/1c3de914ac98463e8db9733c4221bee4_1748349290_095C228F438BC1A600341F09D8EF0443.png
+2025-05-27 20:34:50,970 - INFO - 127.0.0.1 - - [27/May/2025 20:34:50] "[32mPOST /post/new HTTP/1.1[0m" 302 -
+2025-05-27 20:34:50,977 - INFO - 127.0.0.1 - - [27/May/2025 20:34:50] "GET / HTTP/1.1" 200 -
+2025-05-27 20:34:50,994 - INFO - 127.0.0.1 - - [27/May/2025 20:34:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:34:50,995 - INFO - 127.0.0.1 - - [27/May/2025 20:34:50] "[36mGET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1[0m" 304 -
+2025-05-27 20:34:51,003 - INFO - 127.0.0.1 - - [27/May/2025 20:34:51] "GET /static/uploads/1c3de914ac98463e8db9733c4221bee4_1748349290_095C228F438BC1A600341F09D8EF0443.png HTTP/1.1" 200 -
+2025-05-27 20:34:51,030 - INFO - 127.0.0.1 - - [27/May/2025 20:34:51] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 20:34:51,032 - INFO - 127.0.0.1 - - [27/May/2025 20:34:51] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:34:51,033 - INFO - 127.0.0.1 - - [27/May/2025 20:34:51] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:34:51,033 - INFO - 127.0.0.1 - - [27/May/2025 20:34:51] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:34:51,035 - INFO - 127.0.0.1 - - [27/May/2025 20:34:51] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:34:51,044 - INFO - 127.0.0.1 - - [27/May/2025 20:34:51] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:34:51,046 - INFO - 127.0.0.1 - - [27/May/2025 20:34:51] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:48:39,254 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 20:48:39,255 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 20:48:39,256 - INFO -  * Restarting with stat
+2025-05-27 20:48:39,693 - WARNING -  * Debugger is active!
+2025-05-27 20:48:39,697 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 20:48:42,087 - INFO - 127.0.0.1 - - [27/May/2025 20:48:42] "GET / HTTP/1.1" 200 -
+2025-05-27 20:48:42,204 - INFO - 127.0.0.1 - - [27/May/2025 20:48:42] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:48:42,206 - INFO - 127.0.0.1 - - [27/May/2025 20:48:42] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:48:42,214 - INFO - 127.0.0.1 - - [27/May/2025 20:48:42] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:48:42,217 - INFO - 127.0.0.1 - - [27/May/2025 20:48:42] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:48:42,220 - INFO - 127.0.0.1 - - [27/May/2025 20:48:42] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:48:42,878 - INFO - 127.0.0.1 - - [27/May/2025 20:48:42] "[36mGET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1[0m" 304 -
+2025-05-27 20:48:42,879 - INFO - 127.0.0.1 - - [27/May/2025 20:48:42] "[36mGET /static/uploads/1c3de914ac98463e8db9733c4221bee4_1748349290_095C228F438BC1A600341F09D8EF0443.png HTTP/1.1[0m" 304 -
+2025-05-27 20:48:42,880 - INFO - 127.0.0.1 - - [27/May/2025 20:48:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:48:42,917 - INFO - 127.0.0.1 - - [27/May/2025 20:48:42] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:48:42,920 - INFO - 127.0.0.1 - - [27/May/2025 20:48:42] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 20:49:42,884 - INFO - 127.0.0.1 - - [27/May/2025 20:49:42] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 20:49:42,907 - INFO - 127.0.0.1 - - [27/May/2025 20:49:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:49:42,909 - INFO - 127.0.0.1 - - [27/May/2025 20:49:42] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:49:55,304 - DEBUG - Received file: «Ô¡º·u.png
+2025-05-27 20:49:55,307 - DEBUG - Saved image to: static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png
+2025-05-27 20:49:55,313 - DEBUG - Post created with image_path: uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png
+2025-05-27 20:49:55,314 - INFO - 127.0.0.1 - - [27/May/2025 20:49:55] "[32mPOST /post/new HTTP/1.1[0m" 302 -
+2025-05-27 20:49:55,320 - INFO - 127.0.0.1 - - [27/May/2025 20:49:55] "GET / HTTP/1.1" 200 -
+2025-05-27 20:49:55,339 - INFO - 127.0.0.1 - - [27/May/2025 20:49:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:49:55,341 - INFO - 127.0.0.1 - - [27/May/2025 20:49:55] "[36mGET /static/uploads/1c3de914ac98463e8db9733c4221bee4_1748349290_095C228F438BC1A600341F09D8EF0443.png HTTP/1.1[0m" 304 -
+2025-05-27 20:49:55,350 - INFO - 127.0.0.1 - - [27/May/2025 20:49:55] "GET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1" 200 -
+2025-05-27 20:49:55,368 - INFO - 127.0.0.1 - - [27/May/2025 20:49:55] "[36mGET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1[0m" 304 -
+2025-05-27 20:49:55,369 - INFO - 127.0.0.1 - - [27/May/2025 20:49:55] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:49:55,370 - INFO - 127.0.0.1 - - [27/May/2025 20:49:55] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 20:49:55,372 - INFO - 127.0.0.1 - - [27/May/2025 20:49:55] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:49:55,373 - INFO - 127.0.0.1 - - [27/May/2025 20:49:55] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:49:55,374 - INFO - 127.0.0.1 - - [27/May/2025 20:49:55] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:49:55,376 - INFO - 127.0.0.1 - - [27/May/2025 20:49:55] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:49:55,377 - INFO - 127.0.0.1 - - [27/May/2025 20:49:55] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:49:58,030 - INFO - 127.0.0.1 - - [27/May/2025 20:49:58] "GET /?board=2 HTTP/1.1" 200 -
+2025-05-27 20:49:58,047 - INFO - 127.0.0.1 - - [27/May/2025 20:49:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:49:58,051 - INFO - 127.0.0.1 - - [27/May/2025 20:49:58] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:49:58,051 - INFO - 127.0.0.1 - - [27/May/2025 20:49:58] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 20:49:58,078 - INFO - 127.0.0.1 - - [27/May/2025 20:49:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:50:07,546 - INFO - 127.0.0.1 - - [27/May/2025 20:50:07] "GET /post/13 HTTP/1.1" 200 -
+2025-05-27 20:50:07,561 - INFO - 127.0.0.1 - - [27/May/2025 20:50:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:50:07,563 - INFO - 127.0.0.1 - - [27/May/2025 20:50:07] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 20:50:07,563 - INFO - 127.0.0.1 - - [27/May/2025 20:50:07] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:50:16,270 - INFO - 127.0.0.1 - - [27/May/2025 20:50:16] "[31m[1mPOST /post/13/reply HTTP/1.1[0m" 413 -
+2025-05-27 20:50:31,738 - DEBUG - Received file: 4f1f7251-facb-404a-9bc4-78b6de7b2410.png
+2025-05-27 20:50:31,739 - DEBUG - Saved image to: static/uploads/d167e677b0604fe684e383ca61d4884c_1748350231_4f1f7251-facb-404a-9bc4-78b6de7b2410.png
+2025-05-27 20:50:31,744 - DEBUG - Reply created with image_path: uploads/d167e677b0604fe684e383ca61d4884c_1748350231_4f1f7251-facb-404a-9bc4-78b6de7b2410.png
+2025-05-27 20:50:31,745 - INFO - 127.0.0.1 - - [27/May/2025 20:50:31] "[32mPOST /post/13/reply HTTP/1.1[0m" 302 -
+2025-05-27 20:50:31,751 - INFO - 127.0.0.1 - - [27/May/2025 20:50:31] "GET /post/13 HTTP/1.1" 200 -
+2025-05-27 20:50:31,769 - INFO - 127.0.0.1 - - [27/May/2025 20:50:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 20:50:31,770 - INFO - 127.0.0.1 - - [27/May/2025 20:50:31] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 20:50:31,778 - INFO - 127.0.0.1 - - [27/May/2025 20:50:31] "GET /static/uploads/d167e677b0604fe684e383ca61d4884c_1748350231_4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1" 200 -
+2025-05-27 20:50:31,796 - INFO - 127.0.0.1 - - [27/May/2025 20:50:31] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 20:51:24,914 - INFO -  * Detected change in 'C:\\Users\\Yukari17\\anonymous_forum\\app.py', reloading
+2025-05-27 20:51:24,955 - INFO -  * Restarting with stat
+2025-05-27 20:51:25,430 - WARNING -  * Debugger is active!
+2025-05-27 20:51:25,434 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 20:52:32,838 - INFO - 127.0.0.1 - - [27/May/2025 20:52:32] "[35m[1mGET /post/13 HTTP/1.1[0m" 500 -
+2025-05-27 20:52:33,214 - INFO - 127.0.0.1 - - [27/May/2025 20:52:33] "GET /post/13?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-27 20:52:33,216 - INFO - 127.0.0.1 - - [27/May/2025 20:52:33] "GET /post/13?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-27 20:52:33,246 - INFO - 127.0.0.1 - - [27/May/2025 20:52:33] "GET /post/13?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-27 20:52:33,300 - INFO - 127.0.0.1 - - [27/May/2025 20:52:33] "[36mGET /post/13?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-27 20:55:00,087 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 20:55:00,087 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 20:55:00,088 - INFO -  * Restarting with stat
+2025-05-27 20:55:00,530 - WARNING -  * Debugger is active!
+2025-05-27 20:55:00,533 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 20:55:03,627 - INFO - 127.0.0.1 - - [27/May/2025 20:55:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-27 20:55:04,020 - INFO - 127.0.0.1 - - [27/May/2025 20:55:04] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-27 20:55:04,022 - INFO - 127.0.0.1 - - [27/May/2025 20:55:04] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-27 20:55:04,057 - INFO - 127.0.0.1 - - [27/May/2025 20:55:04] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-27 20:55:04,298 - INFO - 127.0.0.1 - - [27/May/2025 20:55:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-27 20:57:03,486 - INFO -  * Detected change in 'C:\\Users\\Yukari17\\anonymous_forum\\app.py', reloading
+2025-05-27 20:57:03,534 - INFO -  * Restarting with stat
+2025-05-27 20:57:04,020 - WARNING -  * Debugger is active!
+2025-05-27 20:57:04,024 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 20:59:10,426 - INFO - 127.0.0.1 - - [27/May/2025 20:59:10] "GET / HTTP/1.1" 200 -
+2025-05-27 20:59:10,482 - INFO - 127.0.0.1 - - [27/May/2025 20:59:10] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:59:11,322 - INFO - 127.0.0.1 - - [27/May/2025 20:59:11] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 20:59:11,323 - INFO - 127.0.0.1 - - [27/May/2025 20:59:11] "[36mGET /static/uploads/1c3de914ac98463e8db9733c4221bee4_1748349290_095C228F438BC1A600341F09D8EF0443.png HTTP/1.1[0m" 304 -
+2025-05-27 20:59:11,331 - INFO - 127.0.0.1 - - [27/May/2025 20:59:11] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 20:59:11,332 - INFO - 127.0.0.1 - - [27/May/2025 20:59:11] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 20:59:11,333 - INFO - 127.0.0.1 - - [27/May/2025 20:59:11] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-27 20:59:11,335 - INFO - 127.0.0.1 - - [27/May/2025 20:59:11] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 20:59:11,336 - INFO - 127.0.0.1 - - [27/May/2025 20:59:11] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 20:59:11,344 - INFO - 127.0.0.1 - - [27/May/2025 20:59:11] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 20:59:11,347 - INFO - 127.0.0.1 - - [27/May/2025 20:59:11] "[36mGET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1[0m" 304 -
+2025-05-27 20:59:11,349 - INFO - 127.0.0.1 - - [27/May/2025 20:59:11] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:01:15,024 - INFO -  * Detected change in 'C:\\Users\\Yukari17\\anonymous_forum\\app.py', reloading
+2025-05-27 21:01:15,066 - INFO -  * Restarting with stat
+2025-05-27 21:01:15,523 - WARNING -  * Debugger is active!
+2025-05-27 21:01:15,526 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 21:01:17,616 - INFO - 127.0.0.1 - - [27/May/2025 21:01:17] "GET / HTTP/1.1" 200 -
+2025-05-27 21:01:17,664 - INFO - 127.0.0.1 - - [27/May/2025 21:01:17] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:01:18,494 - INFO - 127.0.0.1 - - [27/May/2025 21:01:18] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:01:18,507 - INFO - 127.0.0.1 - - [27/May/2025 21:01:18] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:01:18,508 - INFO - 127.0.0.1 - - [27/May/2025 21:01:18] "[36mGET /static/uploads/1c3de914ac98463e8db9733c4221bee4_1748349290_095C228F438BC1A600341F09D8EF0443.png HTTP/1.1[0m" 304 -
+2025-05-27 21:01:18,509 - INFO - 127.0.0.1 - - [27/May/2025 21:01:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:01:18,511 - INFO - 127.0.0.1 - - [27/May/2025 21:01:18] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 21:01:18,512 - INFO - 127.0.0.1 - - [27/May/2025 21:01:18] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 21:01:18,514 - INFO - 127.0.0.1 - - [27/May/2025 21:01:18] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:01:18,518 - INFO - 127.0.0.1 - - [27/May/2025 21:01:18] "[36mGET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1[0m" 304 -
+2025-05-27 21:01:18,524 - INFO - 127.0.0.1 - - [27/May/2025 21:01:18] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:01:18,527 - INFO - 127.0.0.1 - - [27/May/2025 21:01:18] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:01:26,434 - INFO - 127.0.0.1 - - [27/May/2025 21:01:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-27 21:01:26,439 - INFO - 127.0.0.1 - - [27/May/2025 21:01:26] "GET / HTTP/1.1" 200 -
+2025-05-27 21:01:26,459 - INFO - 127.0.0.1 - - [27/May/2025 21:01:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:01:26,460 - INFO - 127.0.0.1 - - [27/May/2025 21:01:26] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:01:26,461 - INFO - 127.0.0.1 - - [27/May/2025 21:01:26] "[36mGET /static/uploads/1c3de914ac98463e8db9733c4221bee4_1748349290_095C228F438BC1A600341F09D8EF0443.png HTTP/1.1[0m" 304 -
+2025-05-27 21:01:26,490 - INFO - 127.0.0.1 - - [27/May/2025 21:01:26] "[36mGET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1[0m" 304 -
+2025-05-27 21:01:26,491 - INFO - 127.0.0.1 - - [27/May/2025 21:01:26] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:01:26,492 - INFO - 127.0.0.1 - - [27/May/2025 21:01:26] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:01:26,492 - INFO - 127.0.0.1 - - [27/May/2025 21:01:26] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:01:26,493 - INFO - 127.0.0.1 - - [27/May/2025 21:01:26] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:01:26,496 - INFO - 127.0.0.1 - - [27/May/2025 21:01:26] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 21:01:26,498 - INFO - 127.0.0.1 - - [27/May/2025 21:01:26] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 21:01:26,500 - INFO - 127.0.0.1 - - [27/May/2025 21:01:26] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:01:28,924 - INFO - 127.0.0.1 - - [27/May/2025 21:01:28] "GET /register HTTP/1.1" 200 -
+2025-05-27 21:01:28,943 - INFO - 127.0.0.1 - - [27/May/2025 21:01:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:01:28,943 - INFO - 127.0.0.1 - - [27/May/2025 21:01:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:01:40,003 - INFO - 127.0.0.1 - - [27/May/2025 21:01:40] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-05-27 21:01:40,008 - INFO - 127.0.0.1 - - [27/May/2025 21:01:40] "GET /login HTTP/1.1" 200 -
+2025-05-27 21:01:40,025 - INFO - 127.0.0.1 - - [27/May/2025 21:01:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:01:40,026 - INFO - 127.0.0.1 - - [27/May/2025 21:01:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:01:48,073 - INFO - 127.0.0.1 - - [27/May/2025 21:01:48] "GET /login HTTP/1.1" 200 -
+2025-05-27 21:01:48,091 - INFO - 127.0.0.1 - - [27/May/2025 21:01:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:01:48,092 - INFO - 127.0.0.1 - - [27/May/2025 21:01:48] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:01:51,901 - INFO - 127.0.0.1 - - [27/May/2025 21:01:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-27 21:01:51,908 - INFO - 127.0.0.1 - - [27/May/2025 21:01:51] "GET / HTTP/1.1" 200 -
+2025-05-27 21:01:51,925 - INFO - 127.0.0.1 - - [27/May/2025 21:01:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:01:51,927 - INFO - 127.0.0.1 - - [27/May/2025 21:01:51] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:01:51,928 - INFO - 127.0.0.1 - - [27/May/2025 21:01:51] "[36mGET /static/uploads/1c3de914ac98463e8db9733c4221bee4_1748349290_095C228F438BC1A600341F09D8EF0443.png HTTP/1.1[0m" 304 -
+2025-05-27 21:01:51,960 - INFO - 127.0.0.1 - - [27/May/2025 21:01:51] "[36mGET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1[0m" 304 -
+2025-05-27 21:01:51,963 - INFO - 127.0.0.1 - - [27/May/2025 21:01:51] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:01:51,965 - INFO - 127.0.0.1 - - [27/May/2025 21:01:51] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:01:51,974 - INFO - 127.0.0.1 - - [27/May/2025 21:01:51] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 21:01:51,975 - INFO - 127.0.0.1 - - [27/May/2025 21:01:51] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:01:51,978 - INFO - 127.0.0.1 - - [27/May/2025 21:01:51] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 21:01:51,980 - INFO - 127.0.0.1 - - [27/May/2025 21:01:51] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:01:51,981 - INFO - 127.0.0.1 - - [27/May/2025 21:01:51] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:01:55,296 - INFO - 127.0.0.1 - - [27/May/2025 21:01:55] "GET /post/13 HTTP/1.1" 200 -
+2025-05-27 21:01:55,313 - INFO - 127.0.0.1 - - [27/May/2025 21:01:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:01:55,315 - INFO - 127.0.0.1 - - [27/May/2025 21:01:55] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:01:55,319 - INFO - 127.0.0.1 - - [27/May/2025 21:01:55] "GET /static/uploads/d167e677b0604fe684e383ca61d4884c_1748350231_4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1" 200 -
+2025-05-27 21:01:55,340 - INFO - 127.0.0.1 - - [27/May/2025 21:01:55] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:02:01,149 - DEBUG - Received file: None
+2025-05-27 21:02:01,149 - WARNING - Invalid or unsupported file: None
+2025-05-27 21:02:01,156 - DEBUG - Reply created with image_path: None
+2025-05-27 21:02:01,157 - INFO - 127.0.0.1 - - [27/May/2025 21:02:01] "[32mPOST /post/13/reply HTTP/1.1[0m" 302 -
+2025-05-27 21:02:01,163 - INFO - 127.0.0.1 - - [27/May/2025 21:02:01] "GET /post/13 HTTP/1.1" 200 -
+2025-05-27 21:02:01,180 - INFO - 127.0.0.1 - - [27/May/2025 21:02:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:02:01,181 - INFO - 127.0.0.1 - - [27/May/2025 21:02:01] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:02:01,182 - INFO - 127.0.0.1 - - [27/May/2025 21:02:01] "[36mGET /static/uploads/d167e677b0604fe684e383ca61d4884c_1748350231_4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 304 -
+2025-05-27 21:02:01,206 - INFO - 127.0.0.1 - - [27/May/2025 21:02:01] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:02:06,902 - INFO - 127.0.0.1 - - [27/May/2025 21:02:06] "GET / HTTP/1.1" 200 -
+2025-05-27 21:02:06,923 - INFO - 127.0.0.1 - - [27/May/2025 21:02:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:02:06,925 - INFO - 127.0.0.1 - - [27/May/2025 21:02:06] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:02:06,925 - INFO - 127.0.0.1 - - [27/May/2025 21:02:06] "[36mGET /static/uploads/1c3de914ac98463e8db9733c4221bee4_1748349290_095C228F438BC1A600341F09D8EF0443.png HTTP/1.1[0m" 304 -
+2025-05-27 21:02:06,951 - INFO - 127.0.0.1 - - [27/May/2025 21:02:06] "[36mGET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1[0m" 304 -
+2025-05-27 21:02:06,952 - INFO - 127.0.0.1 - - [27/May/2025 21:02:06] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:02:06,953 - INFO - 127.0.0.1 - - [27/May/2025 21:02:06] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:02:06,956 - INFO - 127.0.0.1 - - [27/May/2025 21:02:06] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:02:06,957 - INFO - 127.0.0.1 - - [27/May/2025 21:02:06] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:02:06,959 - INFO - 127.0.0.1 - - [27/May/2025 21:02:06] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 21:02:06,961 - INFO - 127.0.0.1 - - [27/May/2025 21:02:06] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 21:02:06,964 - INFO - 127.0.0.1 - - [27/May/2025 21:02:06] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:02:11,907 - INFO - 127.0.0.1 - - [27/May/2025 21:02:11] "GET / HTTP/1.1" 200 -
+2025-05-27 21:02:11,921 - INFO - 127.0.0.1 - - [27/May/2025 21:02:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:02:11,924 - INFO - 127.0.0.1 - - [27/May/2025 21:02:11] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:02:11,924 - INFO - 127.0.0.1 - - [27/May/2025 21:02:11] "[36mGET /static/uploads/1c3de914ac98463e8db9733c4221bee4_1748349290_095C228F438BC1A600341F09D8EF0443.png HTTP/1.1[0m" 304 -
+2025-05-27 21:02:11,952 - INFO - 127.0.0.1 - - [27/May/2025 21:02:11] "[36mGET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1[0m" 304 -
+2025-05-27 21:02:11,954 - INFO - 127.0.0.1 - - [27/May/2025 21:02:11] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:02:11,955 - INFO - 127.0.0.1 - - [27/May/2025 21:02:11] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:02:11,956 - INFO - 127.0.0.1 - - [27/May/2025 21:02:11] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:02:11,957 - INFO - 127.0.0.1 - - [27/May/2025 21:02:11] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:02:11,959 - INFO - 127.0.0.1 - - [27/May/2025 21:02:11] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 21:02:11,961 - INFO - 127.0.0.1 - - [27/May/2025 21:02:11] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 21:02:11,962 - INFO - 127.0.0.1 - - [27/May/2025 21:02:11] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:03:00,138 - INFO - 127.0.0.1 - - [27/May/2025 21:03:00] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-27 21:03:00,143 - INFO - 127.0.0.1 - - [27/May/2025 21:03:00] "GET / HTTP/1.1" 200 -
+2025-05-27 21:03:00,161 - INFO - 127.0.0.1 - - [27/May/2025 21:03:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:03:00,163 - INFO - 127.0.0.1 - - [27/May/2025 21:03:00] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:00,163 - INFO - 127.0.0.1 - - [27/May/2025 21:03:00] "[36mGET /static/uploads/1c3de914ac98463e8db9733c4221bee4_1748349290_095C228F438BC1A600341F09D8EF0443.png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:00,195 - INFO - 127.0.0.1 - - [27/May/2025 21:03:00] "[36mGET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:00,196 - INFO - 127.0.0.1 - - [27/May/2025 21:03:00] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:03:00,198 - INFO - 127.0.0.1 - - [27/May/2025 21:03:00] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:03:00,198 - INFO - 127.0.0.1 - - [27/May/2025 21:03:00] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:03:00,201 - INFO - 127.0.0.1 - - [27/May/2025 21:03:00] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:03:00,202 - INFO - 127.0.0.1 - - [27/May/2025 21:03:00] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:00,204 - INFO - 127.0.0.1 - - [27/May/2025 21:03:00] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:00,205 - INFO - 127.0.0.1 - - [27/May/2025 21:03:00] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:03:01,249 - INFO - 127.0.0.1 - - [27/May/2025 21:03:01] "GET /login HTTP/1.1" 200 -
+2025-05-27 21:03:01,265 - INFO - 127.0.0.1 - - [27/May/2025 21:03:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:03:01,266 - INFO - 127.0.0.1 - - [27/May/2025 21:03:01] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:03:04,143 - INFO - 127.0.0.1 - - [27/May/2025 21:03:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-27 21:03:04,149 - INFO - 127.0.0.1 - - [27/May/2025 21:03:04] "GET / HTTP/1.1" 200 -
+2025-05-27 21:03:04,165 - INFO - 127.0.0.1 - - [27/May/2025 21:03:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:03:04,170 - INFO - 127.0.0.1 - - [27/May/2025 21:03:04] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:04,170 - INFO - 127.0.0.1 - - [27/May/2025 21:03:04] "[36mGET /static/uploads/1c3de914ac98463e8db9733c4221bee4_1748349290_095C228F438BC1A600341F09D8EF0443.png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:04,199 - INFO - 127.0.0.1 - - [27/May/2025 21:03:04] "[36mGET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:04,200 - INFO - 127.0.0.1 - - [27/May/2025 21:03:04] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:03:04,202 - INFO - 127.0.0.1 - - [27/May/2025 21:03:04] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:03:04,203 - INFO - 127.0.0.1 - - [27/May/2025 21:03:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:03:04,203 - INFO - 127.0.0.1 - - [27/May/2025 21:03:04] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:03:04,205 - INFO - 127.0.0.1 - - [27/May/2025 21:03:04] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:04,207 - INFO - 127.0.0.1 - - [27/May/2025 21:03:04] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:04,210 - INFO - 127.0.0.1 - - [27/May/2025 21:03:04] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:03:09,381 - DEBUG - Deleted image: static/uploads/1c3de914ac98463e8db9733c4221bee4_1748349290_095C228F438BC1A600341F09D8EF0443.png
+2025-05-27 21:03:09,387 - INFO - Post 12 deleted by user 1
+2025-05-27 21:03:09,388 - INFO - 127.0.0.1 - - [27/May/2025 21:03:09] "[32mPOST /post/12/delete HTTP/1.1[0m" 302 -
+2025-05-27 21:03:09,395 - INFO - 127.0.0.1 - - [27/May/2025 21:03:09] "GET / HTTP/1.1" 200 -
+2025-05-27 21:03:09,410 - INFO - 127.0.0.1 - - [27/May/2025 21:03:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:03:09,412 - INFO - 127.0.0.1 - - [27/May/2025 21:03:09] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:09,413 - INFO - 127.0.0.1 - - [27/May/2025 21:03:09] "[36mGET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:09,441 - INFO - 127.0.0.1 - - [27/May/2025 21:03:09] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:03:09,442 - INFO - 127.0.0.1 - - [27/May/2025 21:03:09] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:03:09,443 - INFO - 127.0.0.1 - - [27/May/2025 21:03:09] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:03:09,444 - INFO - 127.0.0.1 - - [27/May/2025 21:03:09] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:03:09,446 - INFO - 127.0.0.1 - - [27/May/2025 21:03:09] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:09,448 - INFO - 127.0.0.1 - - [27/May/2025 21:03:09] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:09,449 - INFO - 127.0.0.1 - - [27/May/2025 21:03:09] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:03:12,883 - INFO - Post 10 deleted by user 1
+2025-05-27 21:03:12,884 - INFO - 127.0.0.1 - - [27/May/2025 21:03:12] "[32mPOST /post/10/delete HTTP/1.1[0m" 302 -
+2025-05-27 21:03:12,891 - INFO - 127.0.0.1 - - [27/May/2025 21:03:12] "GET / HTTP/1.1" 200 -
+2025-05-27 21:03:12,910 - INFO - 127.0.0.1 - - [27/May/2025 21:03:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:03:12,912 - INFO - 127.0.0.1 - - [27/May/2025 21:03:12] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:12,912 - INFO - 127.0.0.1 - - [27/May/2025 21:03:12] "[36mGET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:12,940 - INFO - 127.0.0.1 - - [27/May/2025 21:03:12] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:03:12,941 - INFO - 127.0.0.1 - - [27/May/2025 21:03:12] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:03:12,942 - INFO - 127.0.0.1 - - [27/May/2025 21:03:12] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:03:12,945 - INFO - 127.0.0.1 - - [27/May/2025 21:03:12] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:03:12,947 - INFO - 127.0.0.1 - - [27/May/2025 21:03:12] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:12,949 - INFO - 127.0.0.1 - - [27/May/2025 21:03:12] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:12,951 - INFO - 127.0.0.1 - - [27/May/2025 21:03:12] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:03:15,348 - INFO - 127.0.0.1 - - [27/May/2025 21:03:15] "GET / HTTP/1.1" 200 -
+2025-05-27 21:03:15,361 - INFO - 127.0.0.1 - - [27/May/2025 21:03:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:03:15,364 - INFO - 127.0.0.1 - - [27/May/2025 21:03:15] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:15,364 - INFO - 127.0.0.1 - - [27/May/2025 21:03:15] "[36mGET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:15,393 - INFO - 127.0.0.1 - - [27/May/2025 21:03:15] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:03:15,394 - INFO - 127.0.0.1 - - [27/May/2025 21:03:15] "[36mGET /static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:03:15,396 - INFO - 127.0.0.1 - - [27/May/2025 21:03:15] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:03:15,399 - INFO - 127.0.0.1 - - [27/May/2025 21:03:15] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:15,399 - INFO - 127.0.0.1 - - [27/May/2025 21:03:15] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:03:15,401 - INFO - 127.0.0.1 - - [27/May/2025 21:03:15] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:15,402 - INFO - 127.0.0.1 - - [27/May/2025 21:03:15] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:03:21,372 - DEBUG - Deleted image: static/uploads/9d5f8c8bd916410fbab142a8e3fea077_1748348127_yilis.gif
+2025-05-27 21:03:21,378 - INFO - Post 9 deleted by user 1
+2025-05-27 21:03:21,379 - INFO - 127.0.0.1 - - [27/May/2025 21:03:21] "[32mPOST /post/9/delete HTTP/1.1[0m" 302 -
+2025-05-27 21:03:21,384 - INFO - 127.0.0.1 - - [27/May/2025 21:03:21] "GET / HTTP/1.1" 200 -
+2025-05-27 21:03:21,403 - INFO - 127.0.0.1 - - [27/May/2025 21:03:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:03:21,405 - INFO - 127.0.0.1 - - [27/May/2025 21:03:21] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:21,405 - INFO - 127.0.0.1 - - [27/May/2025 21:03:21] "[36mGET /static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:21,429 - INFO - 127.0.0.1 - - [27/May/2025 21:03:21] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:03:21,430 - INFO - 127.0.0.1 - - [27/May/2025 21:03:21] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:03:21,433 - INFO - 127.0.0.1 - - [27/May/2025 21:03:21] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:21,435 - INFO - 127.0.0.1 - - [27/May/2025 21:03:21] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:21,437 - INFO - 127.0.0.1 - - [27/May/2025 21:03:21] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:03:21,438 - INFO - 127.0.0.1 - - [27/May/2025 21:03:21] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:03:27,518 - DEBUG - Deleted image: static/uploads/900769d47ccd479f89a75673eb846a4c_1748348188_5bcx90539si11.png
+2025-05-27 21:03:27,524 - INFO - Post 11 deleted by user 1
+2025-05-27 21:03:27,525 - INFO - 127.0.0.1 - - [27/May/2025 21:03:27] "[32mPOST /post/11/delete HTTP/1.1[0m" 302 -
+2025-05-27 21:03:27,531 - INFO - 127.0.0.1 - - [27/May/2025 21:03:27] "GET / HTTP/1.1" 200 -
+2025-05-27 21:03:27,549 - INFO - 127.0.0.1 - - [27/May/2025 21:03:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:03:27,549 - INFO - 127.0.0.1 - - [27/May/2025 21:03:27] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:27,553 - INFO - 127.0.0.1 - - [27/May/2025 21:03:27] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:03:27,576 - INFO - 127.0.0.1 - - [27/May/2025 21:03:27] "[33mGET /static/uploads\\0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:03:27,579 - INFO - 127.0.0.1 - - [27/May/2025 21:03:27] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:27,580 - INFO - 127.0.0.1 - - [27/May/2025 21:03:27] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:03:27,581 - INFO - 127.0.0.1 - - [27/May/2025 21:03:27] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:27,582 - INFO - 127.0.0.1 - - [27/May/2025 21:03:27] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:03:32,301 - DEBUG - Deleted image: static/uploads/0b0f815de17a4f5587c69bd186b1b973_1748346287_alina.jpg
+2025-05-27 21:03:32,305 - INFO - Post 7 deleted by user 1
+2025-05-27 21:03:32,306 - INFO - 127.0.0.1 - - [27/May/2025 21:03:32] "[32mPOST /post/7/delete HTTP/1.1[0m" 302 -
+2025-05-27 21:03:32,311 - INFO - 127.0.0.1 - - [27/May/2025 21:03:32] "GET / HTTP/1.1" 200 -
+2025-05-27 21:03:32,327 - INFO - 127.0.0.1 - - [27/May/2025 21:03:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:03:32,328 - INFO - 127.0.0.1 - - [27/May/2025 21:03:32] "[33mGET /static/uploads\\f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg HTTP/1.1[0m" 404 -
+2025-05-27 21:03:32,329 - INFO - 127.0.0.1 - - [27/May/2025 21:03:32] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:32,356 - INFO - 127.0.0.1 - - [27/May/2025 21:03:32] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:32,359 - INFO - 127.0.0.1 - - [27/May/2025 21:03:32] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:32,360 - INFO - 127.0.0.1 - - [27/May/2025 21:03:32] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:03:32,361 - INFO - 127.0.0.1 - - [27/May/2025 21:03:32] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:03:35,276 - DEBUG - Deleted image: static/uploads/f6a1415517444ea8aaba592097f90017_1748346649_DDBC9839CF8A3B976F47B1C079CB756D.jpg
+2025-05-27 21:03:35,281 - INFO - Post 8 deleted by user 1
+2025-05-27 21:03:35,282 - INFO - 127.0.0.1 - - [27/May/2025 21:03:35] "[32mPOST /post/8/delete HTTP/1.1[0m" 302 -
+2025-05-27 21:03:35,287 - INFO - 127.0.0.1 - - [27/May/2025 21:03:35] "GET / HTTP/1.1" 200 -
+2025-05-27 21:03:35,306 - INFO - 127.0.0.1 - - [27/May/2025 21:03:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:03:35,307 - INFO - 127.0.0.1 - - [27/May/2025 21:03:35] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:35,307 - INFO - 127.0.0.1 - - [27/May/2025 21:03:35] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:35,330 - INFO - 127.0.0.1 - - [27/May/2025 21:03:35] "[33mGET /static/static/uploads\\4f1f7251-facb-404a-9bc4-78b6de7b2410.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:35,332 - INFO - 127.0.0.1 - - [27/May/2025 21:03:35] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:03:35,334 - INFO - 127.0.0.1 - - [27/May/2025 21:03:35] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:03:38,472 - DEBUG - Deleted image: static/uploads/4f1f7251-facb-404a-9bc4-78b6de7b2410.png
+2025-05-27 21:03:38,479 - INFO - Post 3 deleted by user 1
+2025-05-27 21:03:38,480 - INFO - 127.0.0.1 - - [27/May/2025 21:03:38] "[32mPOST /post/3/delete HTTP/1.1[0m" 302 -
+2025-05-27 21:03:38,486 - INFO - 127.0.0.1 - - [27/May/2025 21:03:38] "GET / HTTP/1.1" 200 -
+2025-05-27 21:03:38,505 - INFO - 127.0.0.1 - - [27/May/2025 21:03:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:03:38,506 - INFO - 127.0.0.1 - - [27/May/2025 21:03:38] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:38,506 - INFO - 127.0.0.1 - - [27/May/2025 21:03:38] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:38,528 - INFO - 127.0.0.1 - - [27/May/2025 21:03:38] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:03:38,530 - INFO - 127.0.0.1 - - [27/May/2025 21:03:38] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:03:42,493 - DEBUG - Deleted image: static/uploads/yilis.gif
+2025-05-27 21:03:42,495 - ERROR - Error deleting post 2: (sqlite3.IntegrityError) NOT NULL constraint failed: reply.post_id
+[SQL: UPDATE reply SET post_id=? WHERE reply.id = ?]
+[parameters: (None, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-27 21:03:42,496 - INFO - 127.0.0.1 - - [27/May/2025 21:03:42] "[32mPOST /post/2/delete HTTP/1.1[0m" 302 -
+2025-05-27 21:03:42,502 - INFO - 127.0.0.1 - - [27/May/2025 21:03:42] "GET /post/2 HTTP/1.1" 200 -
+2025-05-27 21:03:42,520 - INFO - 127.0.0.1 - - [27/May/2025 21:03:42] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:03:42,521 - INFO - 127.0.0.1 - - [27/May/2025 21:03:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:03:42,523 - INFO - 127.0.0.1 - - [27/May/2025 21:03:42] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:03:52,884 - INFO - 127.0.0.1 - - [27/May/2025 21:03:52] "GET / HTTP/1.1" 200 -
+2025-05-27 21:03:52,903 - INFO - 127.0.0.1 - - [27/May/2025 21:03:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:03:52,904 - INFO - 127.0.0.1 - - [27/May/2025 21:03:52] "[33mGET /static/uploads\\0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png HTTP/1.1[0m" 404 -
+2025-05-27 21:03:52,905 - INFO - 127.0.0.1 - - [27/May/2025 21:03:52] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:52,933 - INFO - 127.0.0.1 - - [27/May/2025 21:03:52] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:03:52,934 - INFO - 127.0.0.1 - - [27/May/2025 21:03:52] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:03:56,359 - DEBUG - Deleted image: static/uploads/0f2b5020760a406eb3b96479b77f7867_1748261415_handshake-removebg-preview.png
+2025-05-27 21:03:56,365 - INFO - Post 4 deleted by user 1
+2025-05-27 21:03:56,366 - INFO - 127.0.0.1 - - [27/May/2025 21:03:56] "[32mPOST /post/4/delete HTTP/1.1[0m" 302 -
+2025-05-27 21:03:56,371 - INFO - 127.0.0.1 - - [27/May/2025 21:03:56] "GET / HTTP/1.1" 200 -
+2025-05-27 21:03:56,387 - INFO - 127.0.0.1 - - [27/May/2025 21:03:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:03:56,387 - INFO - 127.0.0.1 - - [27/May/2025 21:03:56] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:03:56,388 - INFO - 127.0.0.1 - - [27/May/2025 21:03:56] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:03:56,414 - INFO - 127.0.0.1 - - [27/May/2025 21:03:56] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:03:56,415 - INFO - 127.0.0.1 - - [27/May/2025 21:03:56] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:04:00,105 - INFO - Post 5 deleted by user 1
+2025-05-27 21:04:00,106 - INFO - 127.0.0.1 - - [27/May/2025 21:04:00] "[32mPOST /post/5/delete HTTP/1.1[0m" 302 -
+2025-05-27 21:04:00,111 - INFO - 127.0.0.1 - - [27/May/2025 21:04:00] "GET / HTTP/1.1" 200 -
+2025-05-27 21:04:00,127 - INFO - 127.0.0.1 - - [27/May/2025 21:04:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:04:00,128 - INFO - 127.0.0.1 - - [27/May/2025 21:04:00] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:04:00,129 - INFO - 127.0.0.1 - - [27/May/2025 21:04:00] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:04:00,157 - INFO - 127.0.0.1 - - [27/May/2025 21:04:00] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:04:00,158 - INFO - 127.0.0.1 - - [27/May/2025 21:04:00] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:04:03,412 - INFO - Post 6 deleted by user 1
+2025-05-27 21:04:03,412 - INFO - 127.0.0.1 - - [27/May/2025 21:04:03] "[32mPOST /post/6/delete HTTP/1.1[0m" 302 -
+2025-05-27 21:04:03,421 - INFO - 127.0.0.1 - - [27/May/2025 21:04:03] "GET / HTTP/1.1" 200 -
+2025-05-27 21:04:03,441 - INFO - 127.0.0.1 - - [27/May/2025 21:04:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:04:03,442 - INFO - 127.0.0.1 - - [27/May/2025 21:04:03] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:04:03,442 - INFO - 127.0.0.1 - - [27/May/2025 21:04:03] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:04:03,468 - INFO - 127.0.0.1 - - [27/May/2025 21:04:03] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:04:03,469 - INFO - 127.0.0.1 - - [27/May/2025 21:04:03] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:04:05,989 - ERROR - Error deleting post 2: (sqlite3.IntegrityError) NOT NULL constraint failed: reply.post_id
+[SQL: UPDATE reply SET post_id=? WHERE reply.id = ?]
+[parameters: (None, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-27 21:04:05,990 - INFO - 127.0.0.1 - - [27/May/2025 21:04:05] "[32mPOST /post/2/delete HTTP/1.1[0m" 302 -
+2025-05-27 21:04:05,995 - INFO - 127.0.0.1 - - [27/May/2025 21:04:05] "GET /post/2 HTTP/1.1" 200 -
+2025-05-27 21:04:06,013 - INFO - 127.0.0.1 - - [27/May/2025 21:04:06] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:04:06,013 - INFO - 127.0.0.1 - - [27/May/2025 21:04:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:04:06,014 - INFO - 127.0.0.1 - - [27/May/2025 21:04:06] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:04:48,884 - INFO - 127.0.0.1 - - [27/May/2025 21:04:48] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 21:04:48,904 - INFO - 127.0.0.1 - - [27/May/2025 21:04:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:04:48,906 - INFO - 127.0.0.1 - - [27/May/2025 21:04:48] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:04:57,337 - DEBUG - Received file: None
+2025-05-27 21:04:57,338 - WARNING - Invalid or unsupported file: None
+2025-05-27 21:04:57,343 - DEBUG - Post created with image_path: None
+2025-05-27 21:04:57,344 - INFO - 127.0.0.1 - - [27/May/2025 21:04:57] "[32mPOST /post/new HTTP/1.1[0m" 302 -
+2025-05-27 21:04:57,349 - INFO - 127.0.0.1 - - [27/May/2025 21:04:57] "GET / HTTP/1.1" 200 -
+2025-05-27 21:04:57,370 - INFO - 127.0.0.1 - - [27/May/2025 21:04:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:04:57,371 - INFO - 127.0.0.1 - - [27/May/2025 21:04:57] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:04:57,371 - INFO - 127.0.0.1 - - [27/May/2025 21:04:57] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:04:57,393 - INFO - 127.0.0.1 - - [27/May/2025 21:04:57] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:04:57,394 - INFO - 127.0.0.1 - - [27/May/2025 21:04:57] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:04:59,608 - INFO - Post 14 deleted by user 1
+2025-05-27 21:04:59,608 - INFO - 127.0.0.1 - - [27/May/2025 21:04:59] "[32mPOST /post/14/delete HTTP/1.1[0m" 302 -
+2025-05-27 21:04:59,614 - INFO - 127.0.0.1 - - [27/May/2025 21:04:59] "GET / HTTP/1.1" 200 -
+2025-05-27 21:04:59,630 - INFO - 127.0.0.1 - - [27/May/2025 21:04:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:04:59,631 - INFO - 127.0.0.1 - - [27/May/2025 21:04:59] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:04:59,631 - INFO - 127.0.0.1 - - [27/May/2025 21:04:59] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:04:59,659 - INFO - 127.0.0.1 - - [27/May/2025 21:04:59] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:04:59,659 - INFO - 127.0.0.1 - - [27/May/2025 21:04:59] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:07:04,063 - INFO -  * Detected change in 'C:\\Users\\Yukari17\\anonymous_forum\\app.py', reloading
+2025-05-27 21:07:04,111 - INFO -  * Restarting with stat
+2025-05-27 21:07:04,598 - WARNING -  * Debugger is active!
+2025-05-27 21:07:04,602 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 21:08:05,102 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 21:08:05,103 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 21:08:05,104 - INFO -  * Restarting with stat
+2025-05-27 21:08:05,542 - WARNING -  * Debugger is active!
+2025-05-27 21:08:05,546 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 21:08:08,153 - INFO - 127.0.0.1 - - [27/May/2025 21:08:08] "GET / HTTP/1.1" 200 -
+2025-05-27 21:08:08,174 - INFO - 127.0.0.1 - - [27/May/2025 21:08:08] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:08:08,267 - INFO - 127.0.0.1 - - [27/May/2025 21:08:08] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:08:08,695 - INFO - 127.0.0.1 - - [27/May/2025 21:08:08] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:08:08,698 - INFO - 127.0.0.1 - - [27/May/2025 21:08:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:08:08,727 - INFO - 127.0.0.1 - - [27/May/2025 21:08:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:08:12,125 - INFO - Post 2 deleted by user 1
+2025-05-27 21:08:12,126 - INFO - 127.0.0.1 - - [27/May/2025 21:08:12] "[32mPOST /post/2/delete HTTP/1.1[0m" 302 -
+2025-05-27 21:08:12,132 - INFO - 127.0.0.1 - - [27/May/2025 21:08:12] "GET / HTTP/1.1" 200 -
+2025-05-27 21:08:12,148 - INFO - 127.0.0.1 - - [27/May/2025 21:08:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:08:12,149 - INFO - 127.0.0.1 - - [27/May/2025 21:08:12] "[33mGET /static/static/uploads\\yilis.gif HTTP/1.1[0m" 404 -
+2025-05-27 21:08:12,150 - INFO - 127.0.0.1 - - [27/May/2025 21:08:12] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:08:12,177 - INFO - 127.0.0.1 - - [27/May/2025 21:08:12] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:08:15,344 - INFO - Post 1 deleted by user 1
+2025-05-27 21:08:15,345 - INFO - 127.0.0.1 - - [27/May/2025 21:08:15] "[32mPOST /post/1/delete HTTP/1.1[0m" 302 -
+2025-05-27 21:08:15,353 - INFO - 127.0.0.1 - - [27/May/2025 21:08:15] "GET / HTTP/1.1" 200 -
+2025-05-27 21:08:15,370 - INFO - 127.0.0.1 - - [27/May/2025 21:08:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:08:15,372 - INFO - 127.0.0.1 - - [27/May/2025 21:08:15] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:08:15,372 - INFO - 127.0.0.1 - - [27/May/2025 21:08:15] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:09:41,827 - INFO - 127.0.0.1 - - [27/May/2025 21:09:41] "GET /?board=1 HTTP/1.1" 200 -
+2025-05-27 21:09:41,846 - INFO - 127.0.0.1 - - [27/May/2025 21:09:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:09:41,848 - INFO - 127.0.0.1 - - [27/May/2025 21:09:41] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:09:43,332 - INFO - 127.0.0.1 - - [27/May/2025 21:09:43] "GET / HTTP/1.1" 200 -
+2025-05-27 21:09:43,347 - INFO - 127.0.0.1 - - [27/May/2025 21:09:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:09:43,348 - INFO - 127.0.0.1 - - [27/May/2025 21:09:43] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:09:43,349 - INFO - 127.0.0.1 - - [27/May/2025 21:09:43] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:09:44,044 - INFO - 127.0.0.1 - - [27/May/2025 21:09:44] "GET /?board=2 HTTP/1.1" 200 -
+2025-05-27 21:09:44,057 - INFO - 127.0.0.1 - - [27/May/2025 21:09:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:09:44,059 - INFO - 127.0.0.1 - - [27/May/2025 21:09:44] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:09:44,061 - INFO - 127.0.0.1 - - [27/May/2025 21:09:44] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:09:46,803 - INFO - 127.0.0.1 - - [27/May/2025 21:09:46] "GET /?board=3 HTTP/1.1" 200 -
+2025-05-27 21:09:46,821 - INFO - 127.0.0.1 - - [27/May/2025 21:09:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:09:46,822 - INFO - 127.0.0.1 - - [27/May/2025 21:09:46] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:09:50,531 - INFO - 127.0.0.1 - - [27/May/2025 21:09:50] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-27 21:09:50,535 - INFO - 127.0.0.1 - - [27/May/2025 21:09:50] "GET / HTTP/1.1" 200 -
+2025-05-27 21:09:50,549 - INFO - 127.0.0.1 - - [27/May/2025 21:09:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:09:50,553 - INFO - 127.0.0.1 - - [27/May/2025 21:09:50] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:09:50,554 - INFO - 127.0.0.1 - - [27/May/2025 21:09:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:12:58,251 - INFO - 127.0.0.1 - - [27/May/2025 21:12:58] "GET / HTTP/1.1" 200 -
+2025-05-27 21:12:58,267 - INFO - 127.0.0.1 - - [27/May/2025 21:12:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:12:58,272 - INFO - 127.0.0.1 - - [27/May/2025 21:12:58] "[36mGET /static/uploads/96dbd522f91e468a9cc35db08cf01a7e_1748350195_png HTTP/1.1[0m" 304 -
+2025-05-27 21:12:58,273 - INFO - 127.0.0.1 - - [27/May/2025 21:12:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:13:00,187 - INFO - 127.0.0.1 - - [27/May/2025 21:13:00] "GET /?board=1 HTTP/1.1" 200 -
+2025-05-27 21:13:00,203 - INFO - 127.0.0.1 - - [27/May/2025 21:13:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:13:00,204 - INFO - 127.0.0.1 - - [27/May/2025 21:13:00] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:20:36,812 - INFO -  * Detected change in 'C:\\Users\\Yukari17\\anonymous_forum\\app.py', reloading
+2025-05-27 21:20:36,854 - INFO -  * Restarting with stat
+2025-05-27 21:20:37,318 - WARNING -  * Debugger is active!
+2025-05-27 21:20:37,321 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 21:23:52,845 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 21:23:52,845 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 21:23:52,846 - INFO -  * Restarting with stat
+2025-05-27 21:23:53,279 - WARNING -  * Debugger is active!
+2025-05-27 21:23:53,283 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 21:23:55,461 - INFO - 127.0.0.1 - - [27/May/2025 21:23:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-27 21:23:55,843 - INFO - 127.0.0.1 - - [27/May/2025 21:23:55] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-27 21:23:55,845 - INFO - 127.0.0.1 - - [27/May/2025 21:23:55] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-27 21:23:55,892 - INFO - 127.0.0.1 - - [27/May/2025 21:23:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-27 21:23:56,139 - INFO - 127.0.0.1 - - [27/May/2025 21:23:56] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-27 21:24:32,538 - INFO - 127.0.0.1 - - [27/May/2025 21:24:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-27 21:24:32,562 - INFO - 127.0.0.1 - - [27/May/2025 21:24:32] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:24:32,564 - INFO - 127.0.0.1 - - [27/May/2025 21:24:32] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-27 21:24:32,596 - INFO - 127.0.0.1 - - [27/May/2025 21:24:32] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-27 21:24:32,649 - INFO - 127.0.0.1 - - [27/May/2025 21:24:32] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-27 21:36:35,217 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 21:36:35,217 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 21:36:35,219 - INFO -  * Restarting with stat
+2025-05-27 21:36:35,657 - WARNING -  * Debugger is active!
+2025-05-27 21:36:35,661 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 21:36:38,170 - INFO - 127.0.0.1 - - [27/May/2025 21:36:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-27 21:36:38,612 - INFO - 127.0.0.1 - - [27/May/2025 21:36:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-27 21:36:38,612 - INFO - 127.0.0.1 - - [27/May/2025 21:36:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:36:38,657 - INFO - 127.0.0.1 - - [27/May/2025 21:36:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-27 21:38:15,448 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 21:38:15,448 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 21:38:15,449 - INFO -  * Restarting with stat
+2025-05-27 21:38:15,886 - WARNING -  * Debugger is active!
+2025-05-27 21:38:15,889 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 21:38:23,941 - INFO - 127.0.0.1 - - [27/May/2025 21:38:23] "GET / HTTP/1.1" 200 -
+2025-05-27 21:38:24,305 - INFO - 127.0.0.1 - - [27/May/2025 21:38:24] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:38:24,313 - INFO - 127.0.0.1 - - [27/May/2025 21:38:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-27 21:38:28,671 - INFO - 127.0.0.1 - - [27/May/2025 21:38:28] "GET /login HTTP/1.1" 200 -
+2025-05-27 21:38:28,689 - INFO - 127.0.0.1 - - [27/May/2025 21:38:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:38:28,691 - INFO - 127.0.0.1 - - [27/May/2025 21:38:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:38:30,040 - INFO - 127.0.0.1 - - [27/May/2025 21:38:30] "POST /login HTTP/1.1" 200 -
+2025-05-27 21:38:30,059 - INFO - 127.0.0.1 - - [27/May/2025 21:38:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:38:30,059 - INFO - 127.0.0.1 - - [27/May/2025 21:38:30] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:38:33,056 - INFO - 127.0.0.1 - - [27/May/2025 21:38:33] "POST /login HTTP/1.1" 200 -
+2025-05-27 21:38:33,071 - INFO - 127.0.0.1 - - [27/May/2025 21:38:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:38:33,071 - INFO - 127.0.0.1 - - [27/May/2025 21:38:33] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:38:35,228 - INFO - 127.0.0.1 - - [27/May/2025 21:38:35] "GET /register HTTP/1.1" 200 -
+2025-05-27 21:38:35,246 - INFO - 127.0.0.1 - - [27/May/2025 21:38:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:38:35,247 - INFO - 127.0.0.1 - - [27/May/2025 21:38:35] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:38:37,728 - INFO - 127.0.0.1 - - [27/May/2025 21:38:37] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-05-27 21:38:37,732 - INFO - 127.0.0.1 - - [27/May/2025 21:38:37] "GET /login HTTP/1.1" 200 -
+2025-05-27 21:38:37,747 - INFO - 127.0.0.1 - - [27/May/2025 21:38:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:38:37,747 - INFO - 127.0.0.1 - - [27/May/2025 21:38:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:38:40,121 - INFO - 127.0.0.1 - - [27/May/2025 21:38:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-27 21:38:40,128 - INFO - 127.0.0.1 - - [27/May/2025 21:38:40] "GET / HTTP/1.1" 200 -
+2025-05-27 21:38:40,148 - INFO - 127.0.0.1 - - [27/May/2025 21:38:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:38:40,148 - INFO - 127.0.0.1 - - [27/May/2025 21:38:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:38:42,029 - INFO - 127.0.0.1 - - [27/May/2025 21:38:42] "GET / HTTP/1.1" 200 -
+2025-05-27 21:38:42,043 - INFO - 127.0.0.1 - - [27/May/2025 21:38:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:38:42,044 - INFO - 127.0.0.1 - - [27/May/2025 21:38:42] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:38:44,094 - INFO - 127.0.0.1 - - [27/May/2025 21:38:44] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 21:38:44,113 - INFO - 127.0.0.1 - - [27/May/2025 21:38:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:38:44,114 - INFO - 127.0.0.1 - - [27/May/2025 21:38:44] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:38:54,147 - DEBUG - Received file: yilis.gif
+2025-05-27 21:38:54,149 - DEBUG - Saved image to: static/uploads/869f2a2caea44f1685576e24d5ae163a_1748353134_yilis.gif
+2025-05-27 21:38:54,155 - DEBUG - Post created with image_path: uploads/869f2a2caea44f1685576e24d5ae163a_1748353134_yilis.gif
+2025-05-27 21:38:54,156 - INFO - 127.0.0.1 - - [27/May/2025 21:38:54] "[32mPOST /post/new HTTP/1.1[0m" 302 -
+2025-05-27 21:38:54,162 - INFO - 127.0.0.1 - - [27/May/2025 21:38:54] "GET / HTTP/1.1" 200 -
+2025-05-27 21:38:54,181 - INFO - 127.0.0.1 - - [27/May/2025 21:38:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:38:54,183 - INFO - 127.0.0.1 - - [27/May/2025 21:38:54] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:38:54,183 - INFO - 127.0.0.1 - - [27/May/2025 21:38:54] "GET /static/uploads/869f2a2caea44f1685576e24d5ae163a_1748353134_yilis.gif HTTP/1.1" 200 -
+2025-05-27 21:38:57,831 - INFO - 127.0.0.1 - - [27/May/2025 21:38:57] "GET /board/2 HTTP/1.1" 200 -
+2025-05-27 21:38:57,848 - INFO - 127.0.0.1 - - [27/May/2025 21:38:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:38:57,851 - INFO - 127.0.0.1 - - [27/May/2025 21:38:57] "[36mGET /static/uploads/869f2a2caea44f1685576e24d5ae163a_1748353134_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:38:57,851 - INFO - 127.0.0.1 - - [27/May/2025 21:38:57] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:38:59,749 - INFO - 127.0.0.1 - - [27/May/2025 21:38:59] "GET /board/3 HTTP/1.1" 200 -
+2025-05-27 21:38:59,765 - INFO - 127.0.0.1 - - [27/May/2025 21:38:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:38:59,766 - INFO - 127.0.0.1 - - [27/May/2025 21:38:59] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:39:01,077 - INFO - 127.0.0.1 - - [27/May/2025 21:39:01] "GET /board/5 HTTP/1.1" 200 -
+2025-05-27 21:39:01,095 - INFO - 127.0.0.1 - - [27/May/2025 21:39:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:39:01,096 - INFO - 127.0.0.1 - - [27/May/2025 21:39:01] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:39:02,299 - INFO - 127.0.0.1 - - [27/May/2025 21:39:02] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-27 21:39:02,304 - INFO - 127.0.0.1 - - [27/May/2025 21:39:02] "GET / HTTP/1.1" 200 -
+2025-05-27 21:39:02,318 - INFO - 127.0.0.1 - - [27/May/2025 21:39:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:39:02,318 - INFO - 127.0.0.1 - - [27/May/2025 21:39:02] "[36mGET /static/uploads/869f2a2caea44f1685576e24d5ae163a_1748353134_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:39:02,322 - INFO - 127.0.0.1 - - [27/May/2025 21:39:02] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:39:04,554 - INFO - 127.0.0.1 - - [27/May/2025 21:39:04] "GET /login HTTP/1.1" 200 -
+2025-05-27 21:39:04,573 - INFO - 127.0.0.1 - - [27/May/2025 21:39:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:39:04,574 - INFO - 127.0.0.1 - - [27/May/2025 21:39:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:39:08,419 - INFO - 127.0.0.1 - - [27/May/2025 21:39:08] "GET /register HTTP/1.1" 200 -
+2025-05-27 21:39:08,435 - INFO - 127.0.0.1 - - [27/May/2025 21:39:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:39:08,435 - INFO - 127.0.0.1 - - [27/May/2025 21:39:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:39:11,675 - INFO - 127.0.0.1 - - [27/May/2025 21:39:11] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-05-27 21:39:11,679 - INFO - 127.0.0.1 - - [27/May/2025 21:39:11] "GET /login HTTP/1.1" 200 -
+2025-05-27 21:39:11,694 - INFO - 127.0.0.1 - - [27/May/2025 21:39:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:39:11,695 - INFO - 127.0.0.1 - - [27/May/2025 21:39:11] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:39:13,506 - INFO - 127.0.0.1 - - [27/May/2025 21:39:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-27 21:39:13,511 - INFO - 127.0.0.1 - - [27/May/2025 21:39:13] "GET / HTTP/1.1" 200 -
+2025-05-27 21:39:13,529 - INFO - 127.0.0.1 - - [27/May/2025 21:39:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:39:13,530 - INFO - 127.0.0.1 - - [27/May/2025 21:39:13] "[36mGET /static/uploads/869f2a2caea44f1685576e24d5ae163a_1748353134_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:39:13,530 - INFO - 127.0.0.1 - - [27/May/2025 21:39:13] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:39:16,108 - INFO - 127.0.0.1 - - [27/May/2025 21:39:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-27 21:39:16,112 - INFO - 127.0.0.1 - - [27/May/2025 21:39:16] "GET / HTTP/1.1" 200 -
+2025-05-27 21:39:16,129 - INFO - 127.0.0.1 - - [27/May/2025 21:39:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:39:16,130 - INFO - 127.0.0.1 - - [27/May/2025 21:39:16] "[36mGET /static/uploads/869f2a2caea44f1685576e24d5ae163a_1748353134_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:39:16,130 - INFO - 127.0.0.1 - - [27/May/2025 21:39:16] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:39:16,762 - INFO - 127.0.0.1 - - [27/May/2025 21:39:16] "GET /register HTTP/1.1" 200 -
+2025-05-27 21:39:16,777 - INFO - 127.0.0.1 - - [27/May/2025 21:39:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:39:16,778 - INFO - 127.0.0.1 - - [27/May/2025 21:39:16] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:39:17,995 - INFO - 127.0.0.1 - - [27/May/2025 21:39:17] "GET /login HTTP/1.1" 200 -
+2025-05-27 21:39:18,012 - INFO - 127.0.0.1 - - [27/May/2025 21:39:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:39:18,013 - INFO - 127.0.0.1 - - [27/May/2025 21:39:18] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:39:20,572 - INFO - 127.0.0.1 - - [27/May/2025 21:39:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-27 21:39:20,577 - INFO - 127.0.0.1 - - [27/May/2025 21:39:20] "GET / HTTP/1.1" 200 -
+2025-05-27 21:39:20,595 - INFO - 127.0.0.1 - - [27/May/2025 21:39:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:39:20,596 - INFO - 127.0.0.1 - - [27/May/2025 21:39:20] "[36mGET /static/uploads/869f2a2caea44f1685576e24d5ae163a_1748353134_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:39:20,596 - INFO - 127.0.0.1 - - [27/May/2025 21:39:20] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:43:35,976 - INFO - 127.0.0.1 - - [27/May/2025 21:43:35] "GET / HTTP/1.1" 200 -
+2025-05-27 21:43:35,995 - INFO - 127.0.0.1 - - [27/May/2025 21:43:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:43:35,996 - INFO - 127.0.0.1 - - [27/May/2025 21:43:35] "[36mGET /static/uploads/869f2a2caea44f1685576e24d5ae163a_1748353134_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:43:35,997 - INFO - 127.0.0.1 - - [27/May/2025 21:43:35] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:43:38,101 - INFO - 127.0.0.1 - - [27/May/2025 21:43:38] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-27 21:43:38,106 - INFO - 127.0.0.1 - - [27/May/2025 21:43:38] "GET / HTTP/1.1" 200 -
+2025-05-27 21:43:38,120 - INFO - 127.0.0.1 - - [27/May/2025 21:43:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:43:38,125 - INFO - 127.0.0.1 - - [27/May/2025 21:43:38] "[36mGET /static/uploads/869f2a2caea44f1685576e24d5ae163a_1748353134_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:43:38,125 - INFO - 127.0.0.1 - - [27/May/2025 21:43:38] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:43:39,306 - INFO - 127.0.0.1 - - [27/May/2025 21:43:39] "GET /login HTTP/1.1" 200 -
+2025-05-27 21:43:39,326 - INFO - 127.0.0.1 - - [27/May/2025 21:43:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:43:39,328 - INFO - 127.0.0.1 - - [27/May/2025 21:43:39] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:43:42,055 - INFO - 127.0.0.1 - - [27/May/2025 21:43:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-27 21:43:42,060 - INFO - 127.0.0.1 - - [27/May/2025 21:43:42] "GET / HTTP/1.1" 200 -
+2025-05-27 21:43:42,080 - INFO - 127.0.0.1 - - [27/May/2025 21:43:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:43:42,081 - INFO - 127.0.0.1 - - [27/May/2025 21:43:42] "[36mGET /static/uploads/869f2a2caea44f1685576e24d5ae163a_1748353134_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:43:42,082 - INFO - 127.0.0.1 - - [27/May/2025 21:43:42] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:43:46,509 - INFO - 127.0.0.1 - - [27/May/2025 21:43:46] "GET / HTTP/1.1" 200 -
+2025-05-27 21:43:46,527 - INFO - 127.0.0.1 - - [27/May/2025 21:43:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:43:46,528 - INFO - 127.0.0.1 - - [27/May/2025 21:43:46] "[36mGET /static/uploads/869f2a2caea44f1685576e24d5ae163a_1748353134_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:43:46,529 - INFO - 127.0.0.1 - - [27/May/2025 21:43:46] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:44:07,790 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 21:44:07,790 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 21:44:07,791 - INFO -  * Restarting with stat
+2025-05-27 21:44:08,220 - WARNING -  * Debugger is active!
+2025-05-27 21:44:08,223 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 21:44:16,137 - INFO - 127.0.0.1 - - [27/May/2025 21:44:16] "GET / HTTP/1.1" 200 -
+2025-05-27 21:44:16,594 - INFO - 127.0.0.1 - - [27/May/2025 21:44:16] "[36mGET /static/uploads/869f2a2caea44f1685576e24d5ae163a_1748353134_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 21:44:16,596 - INFO - 127.0.0.1 - - [27/May/2025 21:44:16] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 21:44:16,596 - INFO - 127.0.0.1 - - [27/May/2025 21:44:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:49:37,229 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 21:49:37,229 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 21:49:37,230 - INFO -  * Restarting with stat
+2025-05-27 21:49:37,666 - WARNING -  * Debugger is active!
+2025-05-27 21:49:37,670 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 21:49:39,820 - INFO - 127.0.0.1 - - [27/May/2025 21:49:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-27 21:49:40,204 - INFO - 127.0.0.1 - - [27/May/2025 21:49:40] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-27 21:49:40,206 - INFO - 127.0.0.1 - - [27/May/2025 21:49:40] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-27 21:49:40,242 - INFO - 127.0.0.1 - - [27/May/2025 21:49:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-27 21:49:40,498 - INFO - 127.0.0.1 - - [27/May/2025 21:49:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-27 21:52:07,232 - INFO -  * Detected change in 'C:\\Users\\Yukari17\\anonymous_forum\\app.py', reloading
+2025-05-27 21:52:07,276 - INFO -  * Restarting with stat
+2025-05-27 22:00:55,929 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 22:00:55,930 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 22:00:55,930 - INFO -  * Restarting with stat
+2025-05-27 22:00:56,359 - WARNING -  * Debugger is active!
+2025-05-27 22:00:56,362 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 22:01:03,338 - INFO - 127.0.0.1 - - [27/May/2025 22:01:03] "GET / HTTP/1.1" 200 -
+2025-05-27 22:01:03,645 - INFO - 127.0.0.1 - - [27/May/2025 22:01:03] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 22:01:03,651 - INFO - 127.0.0.1 - - [27/May/2025 22:01:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-27 22:01:06,200 - INFO - 127.0.0.1 - - [27/May/2025 22:01:06] "GET /login HTTP/1.1" 200 -
+2025-05-27 22:01:06,224 - INFO - 127.0.0.1 - - [27/May/2025 22:01:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:01:06,224 - INFO - 127.0.0.1 - - [27/May/2025 22:01:06] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 22:01:07,411 - INFO - 127.0.0.1 - - [27/May/2025 22:01:07] "POST /login HTTP/1.1" 200 -
+2025-05-27 22:01:07,429 - INFO - 127.0.0.1 - - [27/May/2025 22:01:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:01:07,430 - INFO - 127.0.0.1 - - [27/May/2025 22:01:07] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 22:01:10,342 - INFO - 127.0.0.1 - - [27/May/2025 22:01:10] "GET /register HTTP/1.1" 200 -
+2025-05-27 22:01:10,361 - INFO - 127.0.0.1 - - [27/May/2025 22:01:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:01:10,361 - INFO - 127.0.0.1 - - [27/May/2025 22:01:10] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 22:01:11,664 - INFO - 127.0.0.1 - - [27/May/2025 22:01:11] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-05-27 22:01:11,669 - INFO - 127.0.0.1 - - [27/May/2025 22:01:11] "GET /login HTTP/1.1" 200 -
+2025-05-27 22:01:11,686 - INFO - 127.0.0.1 - - [27/May/2025 22:01:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:01:11,687 - INFO - 127.0.0.1 - - [27/May/2025 22:01:11] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 22:01:15,323 - INFO - 127.0.0.1 - - [27/May/2025 22:01:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-27 22:01:15,329 - INFO - 127.0.0.1 - - [27/May/2025 22:01:15] "GET / HTTP/1.1" 200 -
+2025-05-27 22:01:15,349 - INFO - 127.0.0.1 - - [27/May/2025 22:01:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:01:15,350 - INFO - 127.0.0.1 - - [27/May/2025 22:01:15] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-27 22:01:17,162 - INFO - 127.0.0.1 - - [27/May/2025 22:01:17] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:01:17,179 - INFO - 127.0.0.1 - - [27/May/2025 22:01:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:01:21,290 - INFO - 127.0.0.1 - - [27/May/2025 22:01:21] "GET /user/edit HTTP/1.1" 200 -
+2025-05-27 22:01:21,308 - INFO - 127.0.0.1 - - [27/May/2025 22:01:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:01:29,302 - DEBUG - Created folder: static/avatars
+2025-05-27 22:01:29,575 - ERROR - Error saving avatar: unknown file extension: 
+2025-05-27 22:01:29,576 - INFO - 127.0.0.1 - - [27/May/2025 22:01:29] "[32mPOST /user/edit HTTP/1.1[0m" 302 -
+2025-05-27 22:01:29,581 - INFO - 127.0.0.1 - - [27/May/2025 22:01:29] "GET /user/edit HTTP/1.1" 200 -
+2025-05-27 22:01:29,600 - INFO - 127.0.0.1 - - [27/May/2025 22:01:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:01:43,389 - DEBUG - Saved avatar to: static/avatars/779fe768136743fcbb4681a577a0766a_1748354503_PRC_xi_jinping1.png
+2025-05-27 22:01:43,390 - INFO - 127.0.0.1 - - [27/May/2025 22:01:43] "[32mPOST /user/edit HTTP/1.1[0m" 302 -
+2025-05-27 22:01:43,396 - INFO - 127.0.0.1 - - [27/May/2025 22:01:43] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:01:43,416 - INFO - 127.0.0.1 - - [27/May/2025 22:01:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:01:46,645 - INFO - 127.0.0.1 - - [27/May/2025 22:01:46] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:01:46,661 - INFO - 127.0.0.1 - - [27/May/2025 22:01:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:01:48,453 - INFO - 127.0.0.1 - - [27/May/2025 22:01:48] "GET /user/edit HTTP/1.1" 200 -
+2025-05-27 22:01:48,467 - INFO - 127.0.0.1 - - [27/May/2025 22:01:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:01:50,575 - INFO - 127.0.0.1 - - [27/May/2025 22:01:50] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:01:50,588 - INFO - 127.0.0.1 - - [27/May/2025 22:01:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:01:56,317 - INFO - 127.0.0.1 - - [27/May/2025 22:01:56] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:01:56,333 - INFO - 127.0.0.1 - - [27/May/2025 22:01:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:16:19,072 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 22:16:19,072 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 22:16:19,073 - INFO -  * Restarting with stat
+2025-05-27 22:16:19,504 - WARNING -  * Debugger is active!
+2025-05-27 22:16:19,507 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 22:16:33,564 - INFO - 127.0.0.1 - - [27/May/2025 22:16:33] "GET / HTTP/1.1" 200 -
+2025-05-27 22:16:33,786 - INFO - 127.0.0.1 - - [27/May/2025 22:16:33] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-27 22:16:35,994 - INFO - 127.0.0.1 - - [27/May/2025 22:16:35] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:16:36,011 - INFO - 127.0.0.1 - - [27/May/2025 22:16:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:16:41,919 - INFO - 127.0.0.1 - - [27/May/2025 22:16:41] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:16:41,934 - INFO - 127.0.0.1 - - [27/May/2025 22:16:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:16:43,991 - INFO - 127.0.0.1 - - [27/May/2025 22:16:43] "GET / HTTP/1.1" 200 -
+2025-05-27 22:16:44,010 - INFO - 127.0.0.1 - - [27/May/2025 22:16:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:16:46,487 - INFO - 127.0.0.1 - - [27/May/2025 22:16:46] "GET / HTTP/1.1" 200 -
+2025-05-27 22:16:46,500 - INFO - 127.0.0.1 - - [27/May/2025 22:16:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:16:50,447 - INFO - 127.0.0.1 - - [27/May/2025 22:16:50] "GET /?board=1 HTTP/1.1" 200 -
+2025-05-27 22:16:50,466 - INFO - 127.0.0.1 - - [27/May/2025 22:16:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:16:51,519 - INFO - 127.0.0.1 - - [27/May/2025 22:16:51] "GET /?board=2 HTTP/1.1" 200 -
+2025-05-27 22:16:51,534 - INFO - 127.0.0.1 - - [27/May/2025 22:16:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:16:53,455 - INFO - 127.0.0.1 - - [27/May/2025 22:16:53] "GET / HTTP/1.1" 200 -
+2025-05-27 22:16:53,468 - INFO - 127.0.0.1 - - [27/May/2025 22:16:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:16:54,723 - INFO - 127.0.0.1 - - [27/May/2025 22:16:54] "GET /board/new HTTP/1.1" 200 -
+2025-05-27 22:16:54,738 - INFO - 127.0.0.1 - - [27/May/2025 22:16:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:08,205 - INFO - Board 'úy‘á”√' created by admin 1
+2025-05-27 22:17:08,206 - INFO - 127.0.0.1 - - [27/May/2025 22:17:08] "[32mPOST /board/new HTTP/1.1[0m" 302 -
+2025-05-27 22:17:08,212 - INFO - 127.0.0.1 - - [27/May/2025 22:17:08] "GET / HTTP/1.1" 200 -
+2025-05-27 22:17:08,229 - INFO - 127.0.0.1 - - [27/May/2025 22:17:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:10,351 - INFO - 127.0.0.1 - - [27/May/2025 22:17:10] "GET /?board=6 HTTP/1.1" 200 -
+2025-05-27 22:17:10,369 - INFO - 127.0.0.1 - - [27/May/2025 22:17:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:13,543 - INFO - 127.0.0.1 - - [27/May/2025 22:17:13] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:17:13,556 - INFO - 127.0.0.1 - - [27/May/2025 22:17:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:15,022 - INFO - 127.0.0.1 - - [27/May/2025 22:17:15] "GET /user/edit HTTP/1.1" 200 -
+2025-05-27 22:17:15,037 - INFO - 127.0.0.1 - - [27/May/2025 22:17:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:15,066 - INFO - 127.0.0.1 - - [27/May/2025 22:17:15] "GET /user/edit HTTP/1.1" 200 -
+2025-05-27 22:17:25,400 - DEBUG - Saved cropped avatar to: static/avatars/b2ea99a701144ebaae4f966394769181_1748355445_alina.jpg
+2025-05-27 22:17:25,401 - DEBUG - Deleted temp file: static/avatars/temp_b2ea99a701144ebaae4f966394769181_1748355445_alina.jpg
+2025-05-27 22:17:25,406 - INFO - 127.0.0.1 - - [27/May/2025 22:17:25] "[32mPOST /user/edit HTTP/1.1[0m" 302 -
+2025-05-27 22:17:25,411 - INFO - 127.0.0.1 - - [27/May/2025 22:17:25] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:17:25,429 - INFO - 127.0.0.1 - - [27/May/2025 22:17:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:30,461 - INFO - 127.0.0.1 - - [27/May/2025 22:17:30] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:17:30,479 - INFO - 127.0.0.1 - - [27/May/2025 22:17:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:31,144 - INFO - 127.0.0.1 - - [27/May/2025 22:17:31] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:17:31,161 - INFO - 127.0.0.1 - - [27/May/2025 22:17:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:31,751 - INFO - 127.0.0.1 - - [27/May/2025 22:17:31] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:17:31,767 - INFO - 127.0.0.1 - - [27/May/2025 22:17:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:32,006 - INFO - 127.0.0.1 - - [27/May/2025 22:17:32] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:17:32,018 - INFO - 127.0.0.1 - - [27/May/2025 22:17:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:32,270 - INFO - 127.0.0.1 - - [27/May/2025 22:17:32] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:17:32,283 - INFO - 127.0.0.1 - - [27/May/2025 22:17:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:32,528 - INFO - 127.0.0.1 - - [27/May/2025 22:17:32] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:17:32,544 - INFO - 127.0.0.1 - - [27/May/2025 22:17:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:33,839 - INFO - 127.0.0.1 - - [27/May/2025 22:17:33] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:17:33,852 - INFO - 127.0.0.1 - - [27/May/2025 22:17:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:34,621 - INFO - 127.0.0.1 - - [27/May/2025 22:17:34] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-27 22:17:34,625 - INFO - 127.0.0.1 - - [27/May/2025 22:17:34] "GET / HTTP/1.1" 200 -
+2025-05-27 22:17:34,639 - INFO - 127.0.0.1 - - [27/May/2025 22:17:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:36,212 - INFO - 127.0.0.1 - - [27/May/2025 22:17:36] "GET /login HTTP/1.1" 200 -
+2025-05-27 22:17:36,228 - INFO - 127.0.0.1 - - [27/May/2025 22:17:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:39,047 - INFO - 127.0.0.1 - - [27/May/2025 22:17:39] "POST /login HTTP/1.1" 200 -
+2025-05-27 22:17:39,065 - INFO - 127.0.0.1 - - [27/May/2025 22:17:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:40,809 - INFO - 127.0.0.1 - - [27/May/2025 22:17:40] "GET /register HTTP/1.1" 200 -
+2025-05-27 22:17:40,822 - INFO - 127.0.0.1 - - [27/May/2025 22:17:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:44,758 - INFO - 127.0.0.1 - - [27/May/2025 22:17:44] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-05-27 22:17:44,762 - INFO - 127.0.0.1 - - [27/May/2025 22:17:44] "GET /register HTTP/1.1" 200 -
+2025-05-27 22:17:44,780 - INFO - 127.0.0.1 - - [27/May/2025 22:17:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:47,611 - INFO - 127.0.0.1 - - [27/May/2025 22:17:47] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-05-27 22:17:47,614 - INFO - 127.0.0.1 - - [27/May/2025 22:17:47] "GET /login HTTP/1.1" 200 -
+2025-05-27 22:17:47,632 - INFO - 127.0.0.1 - - [27/May/2025 22:17:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:50,833 - INFO - 127.0.0.1 - - [27/May/2025 22:17:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-27 22:17:50,839 - INFO - 127.0.0.1 - - [27/May/2025 22:17:50] "GET / HTTP/1.1" 200 -
+2025-05-27 22:17:50,856 - INFO - 127.0.0.1 - - [27/May/2025 22:17:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:53,328 - INFO - 127.0.0.1 - - [27/May/2025 22:17:53] "GET /?board=1 HTTP/1.1" 200 -
+2025-05-27 22:17:53,345 - INFO - 127.0.0.1 - - [27/May/2025 22:17:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:17:54,359 - INFO - 127.0.0.1 - - [27/May/2025 22:17:54] "GET /?board=6 HTTP/1.1" 200 -
+2025-05-27 22:17:54,377 - INFO - 127.0.0.1 - - [27/May/2025 22:17:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:18:02,285 - INFO - 127.0.0.1 - - [27/May/2025 22:18:02] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-27 22:18:02,290 - INFO - 127.0.0.1 - - [27/May/2025 22:18:02] "GET / HTTP/1.1" 200 -
+2025-05-27 22:18:02,305 - INFO - 127.0.0.1 - - [27/May/2025 22:18:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:18:03,805 - INFO - 127.0.0.1 - - [27/May/2025 22:18:03] "GET /login HTTP/1.1" 200 -
+2025-05-27 22:18:03,822 - INFO - 127.0.0.1 - - [27/May/2025 22:18:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:18:09,153 - INFO - 127.0.0.1 - - [27/May/2025 22:18:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-27 22:18:09,158 - INFO - 127.0.0.1 - - [27/May/2025 22:18:09] "GET / HTTP/1.1" 200 -
+2025-05-27 22:18:09,179 - INFO - 127.0.0.1 - - [27/May/2025 22:18:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:18:53,150 - INFO - 127.0.0.1 - - [27/May/2025 22:18:53] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 22:18:53,169 - INFO - 127.0.0.1 - - [27/May/2025 22:18:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:18:59,342 - INFO - 127.0.0.1 - - [27/May/2025 22:18:59] "GET /board/new HTTP/1.1" 200 -
+2025-05-27 22:18:59,355 - INFO - 127.0.0.1 - - [27/May/2025 22:18:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:19:00,408 - INFO - 127.0.0.1 - - [27/May/2025 22:19:00] "GET / HTTP/1.1" 200 -
+2025-05-27 22:19:00,424 - INFO - 127.0.0.1 - - [27/May/2025 22:19:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:19:01,488 - INFO - 127.0.0.1 - - [27/May/2025 22:19:01] "GET /board/new HTTP/1.1" 200 -
+2025-05-27 22:19:01,502 - INFO - 127.0.0.1 - - [27/May/2025 22:19:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:19:02,182 - INFO - 127.0.0.1 - - [27/May/2025 22:19:02] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:19:02,196 - INFO - 127.0.0.1 - - [27/May/2025 22:19:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:19:04,288 - INFO - 127.0.0.1 - - [27/May/2025 22:19:04] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:19:04,301 - INFO - 127.0.0.1 - - [27/May/2025 22:19:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:19:04,807 - INFO - 127.0.0.1 - - [27/May/2025 22:19:04] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:19:04,822 - INFO - 127.0.0.1 - - [27/May/2025 22:19:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:19:07,655 - INFO - 127.0.0.1 - - [27/May/2025 22:19:07] "GET / HTTP/1.1" 200 -
+2025-05-27 22:19:07,669 - INFO - 127.0.0.1 - - [27/May/2025 22:19:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:19:10,079 - INFO - 127.0.0.1 - - [27/May/2025 22:19:10] "GET /?board=1 HTTP/1.1" 200 -
+2025-05-27 22:19:10,099 - INFO - 127.0.0.1 - - [27/May/2025 22:19:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:19:11,159 - INFO - 127.0.0.1 - - [27/May/2025 22:19:11] "GET /?board=6 HTTP/1.1" 200 -
+2025-05-27 22:19:11,171 - INFO - 127.0.0.1 - - [27/May/2025 22:19:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:20:58,615 - INFO - 127.0.0.1 - - [27/May/2025 22:20:58] "GET /board/new HTTP/1.1" 200 -
+2025-05-27 22:20:58,636 - INFO - 127.0.0.1 - - [27/May/2025 22:20:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:03,832 - INFO - 127.0.0.1 - - [27/May/2025 22:21:03] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:21:03,850 - INFO - 127.0.0.1 - - [27/May/2025 22:21:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:10,238 - INFO - 127.0.0.1 - - [27/May/2025 22:21:10] "GET / HTTP/1.1" 200 -
+2025-05-27 22:21:10,254 - INFO - 127.0.0.1 - - [27/May/2025 22:21:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:22,446 - INFO - 127.0.0.1 - - [27/May/2025 22:21:22] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-27 22:21:22,465 - INFO - 127.0.0.1 - - [27/May/2025 22:21:22] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:22,469 - INFO - 127.0.0.1 - - [27/May/2025 22:21:22] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-27 22:21:22,514 - INFO - 127.0.0.1 - - [27/May/2025 22:21:22] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-27 22:21:22,562 - INFO - 127.0.0.1 - - [27/May/2025 22:21:22] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-27 22:21:30,314 - INFO - 127.0.0.1 - - [27/May/2025 22:21:30] "GET / HTTP/1.1" 200 -
+2025-05-27 22:21:30,332 - INFO - 127.0.0.1 - - [27/May/2025 22:21:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:33,287 - INFO - 127.0.0.1 - - [27/May/2025 22:21:33] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 22:21:33,302 - INFO - 127.0.0.1 - - [27/May/2025 22:21:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:34,615 - INFO - 127.0.0.1 - - [27/May/2025 22:21:34] "GET / HTTP/1.1" 200 -
+2025-05-27 22:21:34,633 - INFO - 127.0.0.1 - - [27/May/2025 22:21:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:36,615 - INFO - 127.0.0.1 - - [27/May/2025 22:21:36] "GET / HTTP/1.1" 200 -
+2025-05-27 22:21:36,633 - INFO - 127.0.0.1 - - [27/May/2025 22:21:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:38,240 - INFO - 127.0.0.1 - - [27/May/2025 22:21:38] "GET /?board=1 HTTP/1.1" 200 -
+2025-05-27 22:21:38,255 - INFO - 127.0.0.1 - - [27/May/2025 22:21:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:38,511 - INFO - 127.0.0.1 - - [27/May/2025 22:21:38] "GET /?board=1 HTTP/1.1" 200 -
+2025-05-27 22:21:38,527 - INFO - 127.0.0.1 - - [27/May/2025 22:21:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:41,783 - INFO - 127.0.0.1 - - [27/May/2025 22:21:41] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 22:21:41,798 - INFO - 127.0.0.1 - - [27/May/2025 22:21:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:45,007 - DEBUG - Received file: None
+2025-05-27 22:21:45,007 - WARNING - Invalid or unsupported file: None
+2025-05-27 22:21:45,014 - DEBUG - Post created with image_path: None
+2025-05-27 22:21:45,015 - INFO - 127.0.0.1 - - [27/May/2025 22:21:45] "[32mPOST /post/new HTTP/1.1[0m" 302 -
+2025-05-27 22:21:45,021 - INFO - 127.0.0.1 - - [27/May/2025 22:21:45] "GET / HTTP/1.1" 200 -
+2025-05-27 22:21:45,039 - INFO - 127.0.0.1 - - [27/May/2025 22:21:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:48,801 - INFO - 127.0.0.1 - - [27/May/2025 22:21:48] "GET /board/1 HTTP/1.1" 200 -
+2025-05-27 22:21:48,818 - INFO - 127.0.0.1 - - [27/May/2025 22:21:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:50,367 - INFO - 127.0.0.1 - - [27/May/2025 22:21:50] "GET / HTTP/1.1" 200 -
+2025-05-27 22:21:50,382 - INFO - 127.0.0.1 - - [27/May/2025 22:21:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:52,208 - INFO - 127.0.0.1 - - [27/May/2025 22:21:52] "GET / HTTP/1.1" 200 -
+2025-05-27 22:21:52,221 - INFO - 127.0.0.1 - - [27/May/2025 22:21:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:52,456 - INFO - 127.0.0.1 - - [27/May/2025 22:21:52] "GET / HTTP/1.1" 200 -
+2025-05-27 22:21:52,469 - INFO - 127.0.0.1 - - [27/May/2025 22:21:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:53,080 - INFO - 127.0.0.1 - - [27/May/2025 22:21:53] "GET /?board=1 HTTP/1.1" 200 -
+2025-05-27 22:21:53,099 - INFO - 127.0.0.1 - - [27/May/2025 22:21:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:53,745 - INFO - 127.0.0.1 - - [27/May/2025 22:21:53] "GET /?board=2 HTTP/1.1" 200 -
+2025-05-27 22:21:53,761 - INFO - 127.0.0.1 - - [27/May/2025 22:21:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:54,978 - INFO - 127.0.0.1 - - [27/May/2025 22:21:54] "GET /?board=3 HTTP/1.1" 200 -
+2025-05-27 22:21:54,998 - INFO - 127.0.0.1 - - [27/May/2025 22:21:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:55,792 - INFO - 127.0.0.1 - - [27/May/2025 22:21:55] "GET /?board=4 HTTP/1.1" 200 -
+2025-05-27 22:21:55,805 - INFO - 127.0.0.1 - - [27/May/2025 22:21:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:56,469 - INFO - 127.0.0.1 - - [27/May/2025 22:21:56] "GET /board/new HTTP/1.1" 200 -
+2025-05-27 22:21:56,486 - INFO - 127.0.0.1 - - [27/May/2025 22:21:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:21:58,470 - INFO - 127.0.0.1 - - [27/May/2025 22:21:58] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 22:21:58,487 - INFO - 127.0.0.1 - - [27/May/2025 22:21:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:22:59,785 - INFO - 127.0.0.1 - - [27/May/2025 22:22:59] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:22:59,802 - INFO - 127.0.0.1 - - [27/May/2025 22:22:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:23:02,952 - INFO - Post 1 deleted by user 1
+2025-05-27 22:23:02,953 - INFO - 127.0.0.1 - - [27/May/2025 22:23:02] "[32mPOST /post/1/delete HTTP/1.1[0m" 302 -
+2025-05-27 22:23:02,962 - INFO - 127.0.0.1 - - [27/May/2025 22:23:02] "GET / HTTP/1.1" 200 -
+2025-05-27 22:23:02,982 - INFO - 127.0.0.1 - - [27/May/2025 22:23:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:23:06,543 - INFO - 127.0.0.1 - - [27/May/2025 22:23:06] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:23:06,563 - INFO - 127.0.0.1 - - [27/May/2025 22:23:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:26:52,862 - INFO -  * Detected change in 'C:\\Users\\Yukari17\\anonymous_forum\\app.py', reloading
+2025-05-27 22:26:52,914 - INFO -  * Restarting with stat
+2025-05-27 22:26:53,399 - WARNING -  * Debugger is active!
+2025-05-27 22:26:53,402 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 22:29:09,978 - INFO - 127.0.0.1 - - [27/May/2025 22:29:09] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:29:10,217 - INFO - 127.0.0.1 - - [27/May/2025 22:29:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:12,271 - INFO - 127.0.0.1 - - [27/May/2025 22:29:12] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:29:12,284 - INFO - 127.0.0.1 - - [27/May/2025 22:29:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:13,555 - INFO - 127.0.0.1 - - [27/May/2025 22:29:13] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 22:29:13,569 - INFO - 127.0.0.1 - - [27/May/2025 22:29:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:16,000 - INFO - 127.0.0.1 - - [27/May/2025 22:29:16] "GET / HTTP/1.1" 200 -
+2025-05-27 22:29:16,014 - INFO - 127.0.0.1 - - [27/May/2025 22:29:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:22,615 - INFO - 127.0.0.1 - - [27/May/2025 22:29:22] "GET / HTTP/1.1" 200 -
+2025-05-27 22:29:22,633 - INFO - 127.0.0.1 - - [27/May/2025 22:29:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:25,702 - INFO - 127.0.0.1 - - [27/May/2025 22:29:25] "GET /board/1/edit HTTP/1.1" 200 -
+2025-05-27 22:29:25,718 - INFO - 127.0.0.1 - - [27/May/2025 22:29:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:26,943 - INFO - 127.0.0.1 - - [27/May/2025 22:29:26] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:29:26,962 - INFO - 127.0.0.1 - - [27/May/2025 22:29:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:28,591 - INFO - 127.0.0.1 - - [27/May/2025 22:29:28] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 22:29:28,606 - INFO - 127.0.0.1 - - [27/May/2025 22:29:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:30,056 - INFO - 127.0.0.1 - - [27/May/2025 22:29:30] "GET / HTTP/1.1" 200 -
+2025-05-27 22:29:30,071 - INFO - 127.0.0.1 - - [27/May/2025 22:29:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:34,478 - INFO - 127.0.0.1 - - [27/May/2025 22:29:34] "GET /board/2/edit HTTP/1.1" 200 -
+2025-05-27 22:29:34,497 - INFO - 127.0.0.1 - - [27/May/2025 22:29:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:38,991 - INFO - 127.0.0.1 - - [27/May/2025 22:29:38] "GET / HTTP/1.1" 200 -
+2025-05-27 22:29:39,006 - INFO - 127.0.0.1 - - [27/May/2025 22:29:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:43,590 - INFO - 127.0.0.1 - - [27/May/2025 22:29:43] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-27 22:29:43,595 - INFO - 127.0.0.1 - - [27/May/2025 22:29:43] "GET / HTTP/1.1" 200 -
+2025-05-27 22:29:43,614 - INFO - 127.0.0.1 - - [27/May/2025 22:29:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:44,983 - INFO - 127.0.0.1 - - [27/May/2025 22:29:44] "GET /login HTTP/1.1" 200 -
+2025-05-27 22:29:45,002 - INFO - 127.0.0.1 - - [27/May/2025 22:29:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:49,756 - INFO - 127.0.0.1 - - [27/May/2025 22:29:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-27 22:29:49,761 - INFO - 127.0.0.1 - - [27/May/2025 22:29:49] "GET / HTTP/1.1" 200 -
+2025-05-27 22:29:49,780 - INFO - 127.0.0.1 - - [27/May/2025 22:29:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:50,952 - INFO - 127.0.0.1 - - [27/May/2025 22:29:50] "GET /?board=1 HTTP/1.1" 200 -
+2025-05-27 22:29:50,969 - INFO - 127.0.0.1 - - [27/May/2025 22:29:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:51,647 - INFO - 127.0.0.1 - - [27/May/2025 22:29:51] "GET /?board=2 HTTP/1.1" 200 -
+2025-05-27 22:29:51,665 - INFO - 127.0.0.1 - - [27/May/2025 22:29:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:52,119 - INFO - 127.0.0.1 - - [27/May/2025 22:29:52] "GET /?board=3 HTTP/1.1" 200 -
+2025-05-27 22:29:52,133 - INFO - 127.0.0.1 - - [27/May/2025 22:29:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:53,039 - INFO - 127.0.0.1 - - [27/May/2025 22:29:53] "GET /?board=4 HTTP/1.1" 200 -
+2025-05-27 22:29:53,054 - INFO - 127.0.0.1 - - [27/May/2025 22:29:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:53,456 - INFO - 127.0.0.1 - - [27/May/2025 22:29:53] "GET /?board=5 HTTP/1.1" 200 -
+2025-05-27 22:29:53,470 - INFO - 127.0.0.1 - - [27/May/2025 22:29:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:53,863 - INFO - 127.0.0.1 - - [27/May/2025 22:29:53] "GET /?board=6 HTTP/1.1" 200 -
+2025-05-27 22:29:53,881 - INFO - 127.0.0.1 - - [27/May/2025 22:29:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:29:54,903 - INFO - 127.0.0.1 - - [27/May/2025 22:29:54] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 22:29:54,917 - INFO - 127.0.0.1 - - [27/May/2025 22:29:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:00,440 - DEBUG - Received file: None
+2025-05-27 22:30:00,440 - WARNING - Invalid or unsupported file: None
+2025-05-27 22:30:00,447 - DEBUG - Post created with image_path: None
+2025-05-27 22:30:00,448 - INFO - 127.0.0.1 - - [27/May/2025 22:30:00] "[32mPOST /post/new HTTP/1.1[0m" 302 -
+2025-05-27 22:30:00,453 - INFO - 127.0.0.1 - - [27/May/2025 22:30:00] "GET / HTTP/1.1" 200 -
+2025-05-27 22:30:00,470 - INFO - 127.0.0.1 - - [27/May/2025 22:30:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:10,505 - INFO - 127.0.0.1 - - [27/May/2025 22:30:10] "GET /board/3 HTTP/1.1" 200 -
+2025-05-27 22:30:10,520 - INFO - 127.0.0.1 - - [27/May/2025 22:30:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:11,674 - INFO - 127.0.0.1 - - [27/May/2025 22:30:11] "GET / HTTP/1.1" 200 -
+2025-05-27 22:30:11,688 - INFO - 127.0.0.1 - - [27/May/2025 22:30:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:15,938 - INFO - Post 1 deleted by user 2
+2025-05-27 22:30:15,939 - INFO - 127.0.0.1 - - [27/May/2025 22:30:15] "[32mPOST /post/1/delete HTTP/1.1[0m" 302 -
+2025-05-27 22:30:15,945 - INFO - 127.0.0.1 - - [27/May/2025 22:30:15] "GET / HTTP/1.1" 200 -
+2025-05-27 22:30:15,964 - INFO - 127.0.0.1 - - [27/May/2025 22:30:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:16,823 - INFO - 127.0.0.1 - - [27/May/2025 22:30:16] "GET /user/2 HTTP/1.1" 200 -
+2025-05-27 22:30:16,837 - INFO - 127.0.0.1 - - [27/May/2025 22:30:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:18,298 - INFO - 127.0.0.1 - - [27/May/2025 22:30:18] "GET /user/edit HTTP/1.1" 200 -
+2025-05-27 22:30:18,316 - INFO - 127.0.0.1 - - [27/May/2025 22:30:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:18,342 - INFO - 127.0.0.1 - - [27/May/2025 22:30:18] "GET /user/edit HTTP/1.1" 200 -
+2025-05-27 22:30:24,452 - DEBUG - Saved cropped avatar to: static/avatars/158826baa8f44748bd2d9cb6e180988f_1748356224_handshake.png
+2025-05-27 22:30:24,453 - DEBUG - Deleted temp file: static/avatars/temp_158826baa8f44748bd2d9cb6e180988f_1748356224_handshake.png
+2025-05-27 22:30:24,454 - INFO - 127.0.0.1 - - [27/May/2025 22:30:24] "[32mPOST /user/edit HTTP/1.1[0m" 302 -
+2025-05-27 22:30:24,465 - INFO - 127.0.0.1 - - [27/May/2025 22:30:24] "GET /user/2 HTTP/1.1" 200 -
+2025-05-27 22:30:24,485 - INFO - 127.0.0.1 - - [27/May/2025 22:30:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:34,438 - INFO - 127.0.0.1 - - [27/May/2025 22:30:34] "GET /user/2 HTTP/1.1" 200 -
+2025-05-27 22:30:34,453 - INFO - 127.0.0.1 - - [27/May/2025 22:30:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:35,118 - INFO - 127.0.0.1 - - [27/May/2025 22:30:35] "GET /user/2 HTTP/1.1" 200 -
+2025-05-27 22:30:35,136 - INFO - 127.0.0.1 - - [27/May/2025 22:30:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:35,359 - INFO - 127.0.0.1 - - [27/May/2025 22:30:35] "GET /user/2 HTTP/1.1" 200 -
+2025-05-27 22:30:35,371 - INFO - 127.0.0.1 - - [27/May/2025 22:30:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:35,607 - INFO - 127.0.0.1 - - [27/May/2025 22:30:35] "GET /user/2 HTTP/1.1" 200 -
+2025-05-27 22:30:35,621 - INFO - 127.0.0.1 - - [27/May/2025 22:30:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:35,838 - INFO - 127.0.0.1 - - [27/May/2025 22:30:35] "GET /user/2 HTTP/1.1" 200 -
+2025-05-27 22:30:35,853 - INFO - 127.0.0.1 - - [27/May/2025 22:30:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:36,071 - INFO - 127.0.0.1 - - [27/May/2025 22:30:36] "GET /user/2 HTTP/1.1" 200 -
+2025-05-27 22:30:36,085 - INFO - 127.0.0.1 - - [27/May/2025 22:30:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:36,967 - INFO - 127.0.0.1 - - [27/May/2025 22:30:36] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-27 22:30:36,972 - INFO - 127.0.0.1 - - [27/May/2025 22:30:36] "GET / HTTP/1.1" 200 -
+2025-05-27 22:30:36,988 - INFO - 127.0.0.1 - - [27/May/2025 22:30:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:38,188 - INFO - 127.0.0.1 - - [27/May/2025 22:30:38] "GET /login HTTP/1.1" 200 -
+2025-05-27 22:30:38,205 - INFO - 127.0.0.1 - - [27/May/2025 22:30:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:40,560 - INFO - 127.0.0.1 - - [27/May/2025 22:30:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-27 22:30:40,566 - INFO - 127.0.0.1 - - [27/May/2025 22:30:40] "GET / HTTP/1.1" 200 -
+2025-05-27 22:30:40,586 - INFO - 127.0.0.1 - - [27/May/2025 22:30:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:41,423 - INFO - 127.0.0.1 - - [27/May/2025 22:30:41] "GET /user/2 HTTP/1.1" 200 -
+2025-05-27 22:30:41,438 - INFO - 127.0.0.1 - - [27/May/2025 22:30:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:42,254 - INFO - 127.0.0.1 - - [27/May/2025 22:30:42] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-27 22:30:42,258 - INFO - 127.0.0.1 - - [27/May/2025 22:30:42] "GET / HTTP/1.1" 200 -
+2025-05-27 22:30:42,273 - INFO - 127.0.0.1 - - [27/May/2025 22:30:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:43,261 - INFO - 127.0.0.1 - - [27/May/2025 22:30:43] "GET /login HTTP/1.1" 200 -
+2025-05-27 22:30:43,279 - INFO - 127.0.0.1 - - [27/May/2025 22:30:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:45,798 - INFO - 127.0.0.1 - - [27/May/2025 22:30:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-27 22:30:45,804 - INFO - 127.0.0.1 - - [27/May/2025 22:30:45] "GET / HTTP/1.1" 200 -
+2025-05-27 22:30:45,819 - INFO - 127.0.0.1 - - [27/May/2025 22:30:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:47,335 - INFO - 127.0.0.1 - - [27/May/2025 22:30:47] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:30:47,350 - INFO - 127.0.0.1 - - [27/May/2025 22:30:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:48,319 - INFO - 127.0.0.1 - - [27/May/2025 22:30:48] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:30:48,332 - INFO - 127.0.0.1 - - [27/May/2025 22:30:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:49,791 - INFO - 127.0.0.1 - - [27/May/2025 22:30:49] "GET / HTTP/1.1" 200 -
+2025-05-27 22:30:49,806 - INFO - 127.0.0.1 - - [27/May/2025 22:30:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:30:55,233 - INFO - Board 6 deleted by admin 1
+2025-05-27 22:30:55,234 - INFO - 127.0.0.1 - - [27/May/2025 22:30:55] "[32mPOST /board/6/delete HTTP/1.1[0m" 302 -
+2025-05-27 22:30:55,240 - INFO - 127.0.0.1 - - [27/May/2025 22:30:55] "GET / HTTP/1.1" 200 -
+2025-05-27 22:30:55,257 - INFO - 127.0.0.1 - - [27/May/2025 22:30:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:31:09,989 - INFO - 127.0.0.1 - - [27/May/2025 22:31:09] "[32mGET /user/edit HTTP/1.1[0m" 302 -
+2025-05-27 22:31:09,992 - INFO - 127.0.0.1 - - [27/May/2025 22:31:09] "GET /login?next=/user/edit HTTP/1.1" 200 -
+2025-05-27 22:31:10,242 - INFO - 127.0.0.1 - - [27/May/2025 22:31:10] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-27 22:31:24,988 - INFO - 127.0.0.1 - - [27/May/2025 22:31:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-27 22:31:24,994 - INFO - 127.0.0.1 - - [27/May/2025 22:31:24] "GET / HTTP/1.1" 200 -
+2025-05-27 22:31:25,092 - INFO - 127.0.0.1 - - [27/May/2025 22:31:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:31:28,542 - INFO - 127.0.0.1 - - [27/May/2025 22:31:28] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:31:28,620 - INFO - 127.0.0.1 - - [27/May/2025 22:31:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:31:29,950 - INFO - 127.0.0.1 - - [27/May/2025 22:31:29] "GET /user/edit HTTP/1.1" 200 -
+2025-05-27 22:31:30,253 - INFO - 127.0.0.1 - - [27/May/2025 22:31:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:31:30,299 - INFO - 127.0.0.1 - - [27/May/2025 22:31:30] "GET /user/edit HTTP/1.1" 200 -
+2025-05-27 22:31:35,165 - DEBUG - Saved cropped avatar to: static/avatars/b747d55268824be3aee091c831783980_1748356295_yilis.gif
+2025-05-27 22:31:35,165 - DEBUG - Deleted temp file: static/avatars/temp_b747d55268824be3aee091c831783980_1748356295_yilis.gif
+2025-05-27 22:31:35,168 - INFO - 127.0.0.1 - - [27/May/2025 22:31:35] "[32mPOST /user/edit HTTP/1.1[0m" 302 -
+2025-05-27 22:31:35,173 - INFO - 127.0.0.1 - - [27/May/2025 22:31:35] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:31:35,414 - INFO - 127.0.0.1 - - [27/May/2025 22:31:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:31:38,508 - INFO - 127.0.0.1 - - [27/May/2025 22:31:38] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 22:31:38,576 - INFO - 127.0.0.1 - - [27/May/2025 22:31:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:31:41,894 - DEBUG - Received file: None
+2025-05-27 22:31:41,894 - WARNING - Invalid or unsupported file: None
+2025-05-27 22:31:41,902 - DEBUG - Post created with image_path: None
+2025-05-27 22:31:41,903 - INFO - 127.0.0.1 - - [27/May/2025 22:31:41] "[32mPOST /post/new HTTP/1.1[0m" 302 -
+2025-05-27 22:31:42,203 - INFO - 127.0.0.1 - - [27/May/2025 22:31:42] "GET / HTTP/1.1" 200 -
+2025-05-27 22:31:42,537 - INFO - 127.0.0.1 - - [27/May/2025 22:31:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:33:44,758 - INFO - 127.0.0.1 - - [27/May/2025 22:33:44] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 22:33:44,781 - INFO - 127.0.0.1 - - [27/May/2025 22:33:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:33:46,976 - DEBUG - Received file: None
+2025-05-27 22:33:46,976 - WARNING - Invalid or unsupported file: None
+2025-05-27 22:33:46,980 - DEBUG - Post created with image_path: None
+2025-05-27 22:33:46,981 - INFO - 127.0.0.1 - - [27/May/2025 22:33:46] "[32mPOST /post/new HTTP/1.1[0m" 302 -
+2025-05-27 22:33:46,987 - INFO - 127.0.0.1 - - [27/May/2025 22:33:46] "GET / HTTP/1.1" 200 -
+2025-05-27 22:33:47,004 - INFO - 127.0.0.1 - - [27/May/2025 22:33:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:36:25,826 - INFO -  * Detected change in 'C:\\Users\\Yukari17\\anonymous_forum\\app.py', reloading
+2025-05-27 22:36:25,872 - INFO -  * Restarting with stat
+2025-05-27 22:36:26,342 - WARNING -  * Debugger is active!
+2025-05-27 22:36:26,345 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 22:36:58,025 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 22:36:58,025 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 22:36:58,026 - INFO -  * Restarting with stat
+2025-05-27 22:36:58,458 - WARNING -  * Debugger is active!
+2025-05-27 22:36:58,461 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 22:37:07,724 - INFO - 127.0.0.1 - - [27/May/2025 22:37:07] "GET / HTTP/1.1" 200 -
+2025-05-27 22:37:07,915 - INFO - 127.0.0.1 - - [27/May/2025 22:37:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:37:12,383 - DEBUG - User 1 profile loaded, avatar_path: None
+2025-05-27 22:37:12,395 - INFO - 127.0.0.1 - - [27/May/2025 22:37:12] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:37:12,413 - INFO - 127.0.0.1 - - [27/May/2025 22:37:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:37:13,738 - INFO - 127.0.0.1 - - [27/May/2025 22:37:13] "GET /user/edit HTTP/1.1" 200 -
+2025-05-27 22:37:13,753 - INFO - 127.0.0.1 - - [27/May/2025 22:37:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:37:13,781 - INFO - 127.0.0.1 - - [27/May/2025 22:37:13] "GET /user/edit HTTP/1.1" 200 -
+2025-05-27 22:37:17,858 - DEBUG - Saved cropped avatar to: static/avatars/e0fc260b225c4a32986a4f3e76f85617_1748356637_yilis.gif
+2025-05-27 22:37:17,859 - DEBUG - Deleted temp file: static/avatars/temp_e0fc260b225c4a32986a4f3e76f85617_1748356637_yilis.gif
+2025-05-27 22:37:17,862 - INFO - 127.0.0.1 - - [27/May/2025 22:37:17] "[32mPOST /user/edit HTTP/1.1[0m" 302 -
+2025-05-27 22:37:17,866 - DEBUG - User 1 profile loaded, avatar_path: None
+2025-05-27 22:37:17,868 - INFO - 127.0.0.1 - - [27/May/2025 22:37:17] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:37:17,887 - INFO - 127.0.0.1 - - [27/May/2025 22:37:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:37:24,391 - DEBUG - User 1 profile loaded, avatar_path: None
+2025-05-27 22:37:24,393 - INFO - 127.0.0.1 - - [27/May/2025 22:37:24] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:37:24,408 - INFO - 127.0.0.1 - - [27/May/2025 22:37:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:37:25,486 - INFO - 127.0.0.1 - - [27/May/2025 22:37:25] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 22:37:25,501 - INFO - 127.0.0.1 - - [27/May/2025 22:37:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:37:27,078 - DEBUG - User 1 profile loaded, avatar_path: None
+2025-05-27 22:37:27,080 - INFO - 127.0.0.1 - - [27/May/2025 22:37:27] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:37:27,099 - INFO - 127.0.0.1 - - [27/May/2025 22:37:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:37:28,712 - INFO - 127.0.0.1 - - [27/May/2025 22:37:28] "GET / HTTP/1.1" 200 -
+2025-05-27 22:37:28,731 - INFO - 127.0.0.1 - - [27/May/2025 22:37:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:37:30,014 - INFO - 127.0.0.1 - - [27/May/2025 22:37:30] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-27 22:37:30,018 - INFO - 127.0.0.1 - - [27/May/2025 22:37:30] "GET / HTTP/1.1" 200 -
+2025-05-27 22:37:30,033 - INFO - 127.0.0.1 - - [27/May/2025 22:37:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:37:30,935 - INFO - 127.0.0.1 - - [27/May/2025 22:37:30] "GET /login HTTP/1.1" 200 -
+2025-05-27 22:37:30,948 - INFO - 127.0.0.1 - - [27/May/2025 22:37:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:37:33,255 - INFO - 127.0.0.1 - - [27/May/2025 22:37:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-27 22:37:33,261 - INFO - 127.0.0.1 - - [27/May/2025 22:37:33] "GET / HTTP/1.1" 200 -
+2025-05-27 22:37:33,275 - INFO - 127.0.0.1 - - [27/May/2025 22:37:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:37:34,518 - DEBUG - User 1 profile loaded, avatar_path: None
+2025-05-27 22:37:34,520 - INFO - 127.0.0.1 - - [27/May/2025 22:37:34] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:37:34,535 - INFO - 127.0.0.1 - - [27/May/2025 22:37:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:38:21,839 - DEBUG - User 2 profile loaded, avatar_path: None
+2025-05-27 22:38:21,840 - INFO - 127.0.0.1 - - [27/May/2025 22:38:21] "GET /user/2 HTTP/1.1" 200 -
+2025-05-27 22:38:21,858 - INFO - 127.0.0.1 - - [27/May/2025 22:38:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:38:24,246 - INFO - 127.0.0.1 - - [27/May/2025 22:38:24] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-27 22:38:24,251 - INFO - 127.0.0.1 - - [27/May/2025 22:38:24] "GET / HTTP/1.1" 200 -
+2025-05-27 22:38:24,265 - INFO - 127.0.0.1 - - [27/May/2025 22:38:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:38:30,446 - DEBUG - User 1 profile loaded, avatar_path: None
+2025-05-27 22:38:30,448 - INFO - 127.0.0.1 - - [27/May/2025 22:38:30] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:38:30,467 - INFO - 127.0.0.1 - - [27/May/2025 22:38:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:38:33,063 - INFO - 127.0.0.1 - - [27/May/2025 22:38:33] "GET / HTTP/1.1" 200 -
+2025-05-27 22:38:33,081 - INFO - 127.0.0.1 - - [27/May/2025 22:38:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:38:39,061 - INFO - 127.0.0.1 - - [27/May/2025 22:38:39] "GET /login HTTP/1.1" 200 -
+2025-05-27 22:38:39,083 - INFO - 127.0.0.1 - - [27/May/2025 22:38:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:38:42,180 - INFO - 127.0.0.1 - - [27/May/2025 22:38:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-27 22:38:42,186 - INFO - 127.0.0.1 - - [27/May/2025 22:38:42] "GET / HTTP/1.1" 200 -
+2025-05-27 22:38:42,201 - INFO - 127.0.0.1 - - [27/May/2025 22:38:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:38:44,926 - DEBUG - User 1 profile loaded, avatar_path: None
+2025-05-27 22:38:44,929 - INFO - 127.0.0.1 - - [27/May/2025 22:38:44] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:38:44,947 - INFO - 127.0.0.1 - - [27/May/2025 22:38:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:39:08,358 - DEBUG - User 1 profile loaded, avatar_path: None
+2025-05-27 22:39:08,361 - INFO - 127.0.0.1 - - [27/May/2025 22:39:08] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:39:08,374 - INFO - 127.0.0.1 - - [27/May/2025 22:39:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:39:10,079 - INFO - 127.0.0.1 - - [27/May/2025 22:39:10] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 22:39:10,098 - INFO - 127.0.0.1 - - [27/May/2025 22:39:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:39:14,088 - DEBUG - Received file: None
+2025-05-27 22:39:14,088 - WARNING - Invalid or unsupported file: None
+2025-05-27 22:39:14,095 - DEBUG - Post created with image_path: None
+2025-05-27 22:39:14,096 - INFO - 127.0.0.1 - - [27/May/2025 22:39:14] "[32mPOST /post/new HTTP/1.1[0m" 302 -
+2025-05-27 22:39:14,102 - INFO - 127.0.0.1 - - [27/May/2025 22:39:14] "GET / HTTP/1.1" 200 -
+2025-05-27 22:39:14,119 - INFO - 127.0.0.1 - - [27/May/2025 22:39:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:39:15,870 - INFO - 127.0.0.1 - - [27/May/2025 22:39:15] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-27 22:39:15,875 - INFO - 127.0.0.1 - - [27/May/2025 22:39:15] "GET / HTTP/1.1" 200 -
+2025-05-27 22:39:15,889 - INFO - 127.0.0.1 - - [27/May/2025 22:39:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:39:16,669 - INFO - 127.0.0.1 - - [27/May/2025 22:39:16] "GET /login HTTP/1.1" 200 -
+2025-05-27 22:39:16,686 - INFO - 127.0.0.1 - - [27/May/2025 22:39:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:39:17,925 - INFO - 127.0.0.1 - - [27/May/2025 22:39:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-27 22:39:17,932 - INFO - 127.0.0.1 - - [27/May/2025 22:39:17] "GET / HTTP/1.1" 200 -
+2025-05-27 22:39:17,952 - INFO - 127.0.0.1 - - [27/May/2025 22:39:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:39:19,198 - INFO - 127.0.0.1 - - [27/May/2025 22:39:19] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 22:39:19,215 - INFO - 127.0.0.1 - - [27/May/2025 22:39:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:39:30,399 - DEBUG - Received file: yilis.gif
+2025-05-27 22:39:30,401 - DEBUG - Saved image to: static/uploads/9e7161a44c5f4aea849e1a5412c70eec_1748356770_yilis.gif
+2025-05-27 22:39:30,406 - DEBUG - Post created with image_path: uploads/9e7161a44c5f4aea849e1a5412c70eec_1748356770_yilis.gif
+2025-05-27 22:39:30,407 - INFO - 127.0.0.1 - - [27/May/2025 22:39:30] "[32mPOST /post/new HTTP/1.1[0m" 302 -
+2025-05-27 22:39:30,413 - INFO - 127.0.0.1 - - [27/May/2025 22:39:30] "GET / HTTP/1.1" 200 -
+2025-05-27 22:39:30,432 - INFO - 127.0.0.1 - - [27/May/2025 22:39:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:39:30,433 - INFO - 127.0.0.1 - - [27/May/2025 22:39:30] "GET /static/uploads/9e7161a44c5f4aea849e1a5412c70eec_1748356770_yilis.gif HTTP/1.1" 200 -
+2025-05-27 22:39:42,975 - INFO - 127.0.0.1 - - [27/May/2025 22:39:42] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 22:39:42,990 - INFO - 127.0.0.1 - - [27/May/2025 22:39:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:39:52,400 - DEBUG - Received file: None
+2025-05-27 22:39:52,400 - WARNING - Invalid or unsupported file: None
+2025-05-27 22:39:52,408 - DEBUG - Post created with image_path: None
+2025-05-27 22:39:52,409 - INFO - 127.0.0.1 - - [27/May/2025 22:39:52] "[32mPOST /post/new HTTP/1.1[0m" 302 -
+2025-05-27 22:39:52,415 - INFO - 127.0.0.1 - - [27/May/2025 22:39:52] "GET / HTTP/1.1" 200 -
+2025-05-27 22:39:52,435 - INFO - 127.0.0.1 - - [27/May/2025 22:39:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:39:52,435 - INFO - 127.0.0.1 - - [27/May/2025 22:39:52] "[36mGET /static/uploads/9e7161a44c5f4aea849e1a5412c70eec_1748356770_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 22:39:55,183 - DEBUG - User 1 profile loaded, avatar_path: None
+2025-05-27 22:39:55,186 - INFO - 127.0.0.1 - - [27/May/2025 22:39:55] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:39:55,209 - INFO - 127.0.0.1 - - [27/May/2025 22:39:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:39:55,209 - INFO - 127.0.0.1 - - [27/May/2025 22:39:55] "[36mGET /static/uploads/9e7161a44c5f4aea849e1a5412c70eec_1748356770_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 22:39:57,724 - INFO - 127.0.0.1 - - [27/May/2025 22:39:57] "GET /post/5 HTTP/1.1" 200 -
+2025-05-27 22:39:57,738 - INFO - 127.0.0.1 - - [27/May/2025 22:39:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:40:15,062 - INFO - 127.0.0.1 - - [27/May/2025 22:40:15] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 22:40:15,081 - INFO - 127.0.0.1 - - [27/May/2025 22:40:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:40:16,335 - DEBUG - User 1 profile loaded, avatar_path: None
+2025-05-27 22:40:16,340 - INFO - 127.0.0.1 - - [27/May/2025 22:40:16] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:40:16,356 - INFO - 127.0.0.1 - - [27/May/2025 22:40:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:40:16,356 - INFO - 127.0.0.1 - - [27/May/2025 22:40:16] "[36mGET /static/uploads/9e7161a44c5f4aea849e1a5412c70eec_1748356770_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 22:40:20,693 - INFO - Post 5 deleted by user 1
+2025-05-27 22:40:20,694 - INFO - 127.0.0.1 - - [27/May/2025 22:40:20] "[32mPOST /post/5/delete HTTP/1.1[0m" 302 -
+2025-05-27 22:40:20,700 - INFO - 127.0.0.1 - - [27/May/2025 22:40:20] "GET / HTTP/1.1" 200 -
+2025-05-27 22:40:20,720 - INFO - 127.0.0.1 - - [27/May/2025 22:40:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:40:20,722 - INFO - 127.0.0.1 - - [27/May/2025 22:40:20] "[36mGET /static/uploads/9e7161a44c5f4aea849e1a5412c70eec_1748356770_yilis.gif HTTP/1.1[0m" 304 -
+2025-05-27 22:45:35,653 - INFO -  * Detected change in 'C:\\Users\\Yukari17\\anonymous_forum\\app.py', reloading
+2025-05-27 22:45:35,696 - INFO -  * Restarting with stat
+2025-05-27 22:45:36,211 - WARNING -  * Debugger is active!
+2025-05-27 22:45:36,214 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 22:47:51,438 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 22:47:51,438 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 22:47:51,439 - INFO -  * Restarting with stat
+2025-05-27 22:47:51,870 - WARNING -  * Debugger is active!
+2025-05-27 22:47:51,874 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 22:47:59,271 - INFO - 127.0.0.1 - - [27/May/2025 22:47:59] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-27 22:48:00,057 - INFO - 127.0.0.1 - - [27/May/2025 22:48:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-27 22:48:00,397 - INFO - 127.0.0.1 - - [27/May/2025 22:48:00] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:48:00,399 - INFO - 127.0.0.1 - - [27/May/2025 22:48:00] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-27 22:48:00,434 - INFO - 127.0.0.1 - - [27/May/2025 22:48:00] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-27 22:48:00,673 - INFO - 127.0.0.1 - - [27/May/2025 22:48:00] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-27 22:50:34,437 - INFO -  * Detected change in 'C:\\Users\\Yukari17\\anonymous_forum\\app.py', reloading
+2025-05-27 22:50:34,480 - INFO -  * Restarting with stat
+2025-05-27 22:50:34,965 - WARNING -  * Debugger is active!
+2025-05-27 22:50:34,968 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 22:51:57,780 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 22:51:57,780 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 22:51:57,781 - INFO -  * Restarting with stat
+2025-05-27 22:51:58,287 - WARNING -  * Debugger is active!
+2025-05-27 22:51:58,291 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 22:52:02,585 - INFO - 127.0.0.1 - - [27/May/2025 22:52:02] "GET / HTTP/1.1" 200 -
+2025-05-27 22:52:02,826 - INFO - 127.0.0.1 - - [27/May/2025 22:52:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:52:05,336 - INFO - 127.0.0.1 - - [27/May/2025 22:52:05] "GET /login HTTP/1.1" 200 -
+2025-05-27 22:52:05,350 - INFO - 127.0.0.1 - - [27/May/2025 22:52:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:52:06,594 - INFO - 127.0.0.1 - - [27/May/2025 22:52:06] "POST /login HTTP/1.1" 200 -
+2025-05-27 22:52:06,608 - INFO - 127.0.0.1 - - [27/May/2025 22:52:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:52:08,441 - INFO - 127.0.0.1 - - [27/May/2025 22:52:08] "GET /register HTTP/1.1" 200 -
+2025-05-27 22:52:08,457 - INFO - 127.0.0.1 - - [27/May/2025 22:52:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:52:10,767 - INFO - 127.0.0.1 - - [27/May/2025 22:52:10] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-05-27 22:52:10,772 - INFO - 127.0.0.1 - - [27/May/2025 22:52:10] "GET /login HTTP/1.1" 200 -
+2025-05-27 22:52:10,786 - INFO - 127.0.0.1 - - [27/May/2025 22:52:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:52:15,022 - INFO - 127.0.0.1 - - [27/May/2025 22:52:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-27 22:52:15,028 - INFO - 127.0.0.1 - - [27/May/2025 22:52:15] "GET / HTTP/1.1" 200 -
+2025-05-27 22:52:15,042 - INFO - 127.0.0.1 - - [27/May/2025 22:52:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:52:26,514 - INFO - 127.0.0.1 - - [27/May/2025 22:52:26] "GET / HTTP/1.1" 200 -
+2025-05-27 22:52:26,529 - INFO - 127.0.0.1 - - [27/May/2025 22:52:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:52:27,758 - INFO - 127.0.0.1 - - [27/May/2025 22:52:27] "GET /login HTTP/1.1" 200 -
+2025-05-27 22:52:27,772 - INFO - 127.0.0.1 - - [27/May/2025 22:52:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:52:28,776 - INFO - 127.0.0.1 - - [27/May/2025 22:52:28] "POST /login HTTP/1.1" 200 -
+2025-05-27 22:52:28,791 - INFO - 127.0.0.1 - - [27/May/2025 22:52:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:52:30,575 - INFO - 127.0.0.1 - - [27/May/2025 22:52:30] "GET /register HTTP/1.1" 200 -
+2025-05-27 22:52:30,589 - INFO - 127.0.0.1 - - [27/May/2025 22:52:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:52:31,908 - INFO - 127.0.0.1 - - [27/May/2025 22:52:31] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-05-27 22:52:31,912 - INFO - 127.0.0.1 - - [27/May/2025 22:52:31] "GET /login HTTP/1.1" 200 -
+2025-05-27 22:52:31,931 - INFO - 127.0.0.1 - - [27/May/2025 22:52:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:52:34,404 - INFO - 127.0.0.1 - - [27/May/2025 22:52:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-27 22:52:34,410 - INFO - 127.0.0.1 - - [27/May/2025 22:52:34] "GET / HTTP/1.1" 200 -
+2025-05-27 22:52:34,425 - INFO - 127.0.0.1 - - [27/May/2025 22:52:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:52:35,329 - DEBUG - User 1 profile loaded, avatar_path: None
+2025-05-27 22:52:35,360 - INFO - 127.0.0.1 - - [27/May/2025 22:52:35] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:52:35,374 - INFO - 127.0.0.1 - - [27/May/2025 22:52:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:52:43,384 - INFO - 127.0.0.1 - - [27/May/2025 22:52:43] "[33mGET /user/1 HTTP/1.1[0m" 404 -
+2025-05-27 22:52:46,719 - INFO - 127.0.0.1 - - [27/May/2025 22:52:46] "[33mGET /user/1 HTTP/1.1[0m" 404 -
+2025-05-27 22:52:49,782 - INFO - 127.0.0.1 - - [27/May/2025 22:52:49] "[33mGET /user/1 HTTP/1.1[0m" 404 -
+2025-05-27 22:53:52,998 - INFO - 127.0.0.1 - - [27/May/2025 22:53:52] "[33mGET /user/1 HTTP/1.1[0m" 404 -
+2025-05-27 22:53:58,519 - INFO - 127.0.0.1 - - [27/May/2025 22:53:58] "[33mGET /user/1 HTTP/1.1[0m" 404 -
+2025-05-27 22:54:51,870 - INFO -  * Detected change in 'C:\\Users\\Yukari17\\anonymous_forum\\set_admin.py', reloading
+2025-05-27 22:54:51,917 - INFO -  * Restarting with stat
+2025-05-27 22:54:52,404 - WARNING -  * Debugger is active!
+2025-05-27 22:54:52,407 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 22:54:58,415 - INFO - 127.0.0.1 - - [27/May/2025 22:54:58] "[33mGET /user/1 HTTP/1.1[0m" 404 -
+2025-05-27 22:55:00,422 - INFO - 127.0.0.1 - - [27/May/2025 22:55:00] "[33mGET /user/1 HTTP/1.1[0m" 404 -
+2025-05-27 22:55:56,148 - INFO -  * Detected change in 'C:\\Users\\Yukari17\\anonymous_forum\\app.py', reloading
+2025-05-27 22:55:56,187 - INFO -  * Restarting with stat
+2025-05-27 22:55:56,835 - INFO - Initial admin user 'yukari17' created.
+2025-05-27 22:55:56,845 - WARNING -  * Debugger is active!
+2025-05-27 22:55:56,848 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 22:59:13,459 - INFO - Initial admin user 'yukari17' created.
+2025-05-27 22:59:13,475 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 22:59:13,475 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 22:59:13,476 - INFO -  * Restarting with stat
+2025-05-27 22:59:14,097 - INFO - Initial admin user 'yukari17' created.
+2025-05-27 22:59:14,106 - WARNING -  * Debugger is active!
+2025-05-27 22:59:14,109 - INFO -  * Debugger PIN: 128-467-688
+2025-05-27 22:59:20,980 - INFO - 127.0.0.1 - - [27/May/2025 22:59:20] "GET / HTTP/1.1" 200 -
+2025-05-27 22:59:21,180 - INFO - 127.0.0.1 - - [27/May/2025 22:59:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:59:25,260 - INFO - 127.0.0.1 - - [27/May/2025 22:59:25] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:59:25,273 - INFO - 127.0.0.1 - - [27/May/2025 22:59:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:59:27,580 - INFO - 127.0.0.1 - - [27/May/2025 22:59:27] "GET /user/edit HTTP/1.1" 200 -
+2025-05-27 22:59:27,594 - INFO - 127.0.0.1 - - [27/May/2025 22:59:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:59:27,622 - INFO - 127.0.0.1 - - [27/May/2025 22:59:27] "GET /user/edit HTTP/1.1" 200 -
+2025-05-27 22:59:33,037 - INFO - 127.0.0.1 - - [27/May/2025 22:59:33] "[32mPOST /user/edit HTTP/1.1[0m" 302 -
+2025-05-27 22:59:33,042 - INFO - 127.0.0.1 - - [27/May/2025 22:59:33] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:59:33,059 - INFO - 127.0.0.1 - - [27/May/2025 22:59:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:59:36,070 - INFO - 127.0.0.1 - - [27/May/2025 22:59:36] "GET /post/new HTTP/1.1" 200 -
+2025-05-27 22:59:36,083 - INFO - 127.0.0.1 - - [27/May/2025 22:59:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:59:38,123 - INFO - 127.0.0.1 - - [27/May/2025 22:59:38] "GET /board/new HTTP/1.1" 200 -
+2025-05-27 22:59:38,138 - INFO - 127.0.0.1 - - [27/May/2025 22:59:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:59:39,360 - INFO - 127.0.0.1 - - [27/May/2025 22:59:39] "GET / HTTP/1.1" 200 -
+2025-05-27 22:59:39,373 - INFO - 127.0.0.1 - - [27/May/2025 22:59:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:59:46,011 - INFO - Initial admin user 'yukari17' created.
+2025-05-27 22:59:47,817 - INFO - 127.0.0.1 - - [27/May/2025 22:59:47] "GET / HTTP/1.1" 200 -
+2025-05-27 22:59:47,833 - INFO - 127.0.0.1 - - [27/May/2025 22:59:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 22:59:53,984 - INFO - 127.0.0.1 - - [27/May/2025 22:59:53] "GET /user/1 HTTP/1.1" 200 -
+2025-05-27 22:59:54,000 - INFO - 127.0.0.1 - - [27/May/2025 22:59:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

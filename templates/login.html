@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登入</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>匿名論壇</h1>
+        <nav>
+            <a href="{{ url_for('register') }}">註冊</a>
+            <a href="{{ url_for('index') }}">返回首頁</a>
+        </nav>
+    </header>
+    <main>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul class="flash-messages">
+                    {% for message in messages %}
+                        <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+        <h2>登入</h2>
+        <form action="{{ url_for('login') }}" method="POST">
+            <label for="username">用戶名：</label>
+            <input type="text" name="username" id="username" required>
+            <label for="password">密碼：</label>
+            <input type="password" name="password" id="password" required>
+            <button type="submit">登入</button>
+        </form>
+    </main>
+</body>
+</html>
