@@ -1,0 +1,24 @@
+# Python 編譯緩存
+__pycache__/
+*.pyc
+
+# 虛擬環境
+venv/
+env/
+
+# SQLite 資料庫檔案
+forum.db
+forum.backup.db
+
+# 日誌檔案
+*.log
+
+# Flask 臨時資料夾
+instance/
+
+# 本地測試腳本或 SQL 檔案
+data.sql
+set_admin.py
+
+# 系統生成檔案
+.DS_Store

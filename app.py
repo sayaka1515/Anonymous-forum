@@ -14,11 +14,23 @@ from datetime import datetime
 import pytz
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'your-secret-key'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///forum.db'
-app.config['UPLOAD_FOLDER'] = 'static/uploads'
+
+# 設置安全的 SECRET_KEY（請替換為隨機值）
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'your-secure-random-key-here')
+
+# 設置資料庫路徑為絕對路徑
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{os.path.join(BASE_DIR, "forum.db")}'
+
+# 設置上傳資料夾
+app.config['UPLOAD_FOLDER'] = os.path.join(BASE_DIR, 'static/uploads')
 app.config['ALLOWED_EXTENSIONS'] = {'png', 'jpg', 'jpeg', 'gif', 'mp4'}
 app.config['MAX_CONTENT_LENGTH'] = 10 * 1024 * 1024
+
+# 確保上傳資料夾存在
+if not os.path.exists(app.config['UPLOAD_FOLDER']):
+    os.makedirs(app.config['UPLOAD_FOLDER'])
+
 db = SQLAlchemy(app)
 login_manager = LoginManager(app)
 login_manager.login_view = 'login'
