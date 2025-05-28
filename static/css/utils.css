@@ -1,0 +1,18 @@
+.flash-messages {
+      list-style: none;
+      padding: 0;
+      color: red;
+  }
+  button:disabled {
+      background-color: #999;
+      cursor: not-allowed;
+  }
+  .delete-btn {
+      background-color: #e74c3c;
+      padding: 0.3em 0.6em;
+      font-size: 0.9em;
+      margin-top: 0.5em;
+  }
+  .delete-btn:hover {
+      background-color: #c0392b;
+  }

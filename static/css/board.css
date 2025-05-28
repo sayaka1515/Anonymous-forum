@@ -1,0 +1,8 @@
+.board-filter {
+      margin-bottom: 1em;
+  }
+  .board-filter a {
+      margin-right: 1em;
+      text-decoration: none;
+      color: #333;
+  }

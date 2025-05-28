@@ -3,24 +3,29 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required, current_user
 from werkzeug.security import generate_password_hash, check_password_hash
 from werkzeug.utils import secure_filename
-from PIL import Image
 import os
 import time
 import logging
 from sqlalchemy.orm import sessionmaker
 from functools import wraps
 from uuid import uuid4
+import re
+from datetime import datetime
+import pytz
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your-secret-key'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///forum.db'
 app.config['UPLOAD_FOLDER'] = 'static/uploads'
-app.config['AVATAR_FOLDER'] = 'static/avatars'
 app.config['ALLOWED_EXTENSIONS'] = {'png', 'jpg', 'jpeg', 'gif', 'mp4'}
 app.config['MAX_CONTENT_LENGTH'] = 10 * 1024 * 1024
 db = SQLAlchemy(app)
 login_manager = LoginManager(app)
 login_manager.login_view = 'login'
+
+# 設置時區為 CST (UTC+8)
+cst_tz = pytz.timezone('Asia/Shanghai')
+app.config['TZ'] = cst_tz
 
 # 設置日誌
 logging.basicConfig(
@@ -48,7 +53,6 @@ class User(UserMixin, db.Model):
     username = db.Column(db.String(50), unique=True, nullable=False)
     password_hash = db.Column(db.String(128), nullable=False)
     is_admin = db.Column(db.Boolean, default=False)
-    avatar_path = db.Column(db.String(200))
     created_at = db.Column(db.DateTime, server_default=db.func.now())
 
 class Board(db.Model):
@@ -103,12 +107,16 @@ def admin_required(f):
 # 路由
 @app.route('/')
 def index():
-    board_id = request.args.get('board')
     boards = Board.query.all()
-    if board_id:
-        posts = Post.query.filter_by(board_id=board_id).order_by(Post.created_at.desc()).all()
-    else:
-        posts = Post.query.order_by(Post.created_at.desc()).all()
+    posts = Post.query.all()
+    for post in posts:
+        if post.media_path:
+            post.media_ext = post.media_path.lower().split('.')[-1]
+        else:
+            post.media_ext = None
+        post.board = Board.query.get(post.board_id)
+        post.replies = Reply.query.filter_by(post_id=post.id).all()
+        post.user = User.query.get(post.user_id)
     return render_template('index.html', boards=boards, posts=posts)
 
 @app.route('/board/<int:board_id>')
@@ -116,6 +124,14 @@ def board(board_id):
     board = Board.query.get_or_404(board_id)
     posts = Post.query.filter_by(board_id=board_id).order_by(Post.created_at.desc()).all()
     boards = Board.query.all()
+    for post in posts:
+        if post.media_path:
+            post.media_ext = post.media_path.lower().split('.')[-1]
+        else:
+            post.media_ext = None
+        post.board = Board.query.get(post.board_id)
+        post.replies = Reply.query.filter_by(post_id=post.id).all()
+        post.user = User.query.get(post.user_id)
     return render_template('index.html', boards=boards, posts=posts, current_board=board)
 
 @app.route('/board/new', methods=['GET', 'POST'])
@@ -195,9 +211,16 @@ def register():
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
+        
+        # 用戶名格式驗證：只能包含字母和數字，長度最多10個字符
+        if not re.match(r'^[a-zA-Z0-9]{1,10}$', username):
+            flash('用戶名只能包含字母和數字，且長度最多10個字符，不能包含中文！')
+            return redirect(url_for('register'))
+        
         if User.query.filter_by(username=username).first():
             flash('用戶名已存在！')
             return redirect(url_for('register'))
+        
         user = User(username=username, password_hash=generate_password_hash(password))
         db.session.add(user)
         db.session.commit()
@@ -273,6 +296,17 @@ def create_post():
 @app.route('/post/<int:post_id>')
 def post(post_id):
     post = Post.query.get_or_404(post_id)
+    if post.media_path:
+        post.media_ext = post.media_path.lower().split('.')[-1]
+    else:
+        post.media_ext = None
+    for reply in post.replies:
+        if reply.media_path:
+            reply.media_ext = reply.media_path.lower().split('.')[-1]
+        else:
+            reply.media_ext = None
+    post.board = Board.query.get(post.board_id)
+    post.user = User.query.get(post.user_id)
     return render_template('post.html', post=post)
 
 @app.route('/post/<int:post_id>/reply', methods=['POST'])
@@ -351,65 +385,9 @@ def delete_post(post_id):
 @app.route('/user/<int:user_id>')
 def user_profile(user_id):
     user = User.query.get_or_404(user_id)
-    posts = Post.query.filter_by(user_id=user_id).order_by(Post.created_at.desc()).all()
-    role = '全論壇總管理' if user.is_admin else '一般用戶'
-    app.logger.debug(f"User {user_id} profile loaded, avatar_path: {user.avatar_path}")
+    posts = Post.query.filter_by(user_id=user_id).all()
+    role = "全論壇總管理" if user.is_admin else "一般用戶"
     return render_template('user_profile.html', user=user, posts=posts, role=role)
-
-@app.route('/user/edit', methods=['GET', 'POST'])
-@login_required
-def edit_profile():
-    if request.method == 'POST':
-        if 'avatar' in request.files:
-            file = request.files['avatar']
-            if file and file.filename and allowed_file(file.filename):
-                filename = secure_filename(file.filename)
-                unique_filename = f"{uuid4().hex}_{int(time.time())}_{filename}"
-                ensure_folder(app.config['AVATAR_FOLDER'])
-                temp_path = os.path.join(app.config['AVATAR_FOLDER'], f"temp_{unique_filename}").replace('\\', '/')
-                full_path = os.path.join(app.config['AVATAR_FOLDER'], unique_filename).replace('\\', '/')
-                avatar_path = f"avatars/{unique_filename}"
-                try:
-                    # 儲存原始圖片
-                    file.save(temp_path)
-                    img = Image.open(temp_path)
-                    # 獲取裁切座標
-                    x = int(float(request.form.get('x', 0)))
-                    y = int(float(request.form.get('y', 0)))
-                    width = int(float(request.form.get('width', 100)))
-                    height = int(float(request.form.get('height', 100)))
-                    # 裁切圖片
-                    img = img.crop((x, y, x + width, y + height))
-                    # 縮放至 100x100
-                    img.thumbnail((100, 100))
-                    img.save(full_path)
-                    app.logger.debug(f"Saved cropped avatar to: {full_path}")
-                    # 驗證檔案可讀
-                    if not os.path.exists(full_path):
-                        raise Exception("頭像檔案儲存後未找到")
-                    # 刪除舊頭像
-                    if current_user.avatar_path:
-                        old_path = os.path.join(app.config['AVATAR_FOLDER'], os.path.basename(current_user.avatar_path)).replace('\\', '/')
-                        if os.path.exists(old_path):
-                            os.remove(old_path)
-                            app.logger.debug(f"Deleted old avatar: {old_path}")
-                    # 刪除臨時檔案
-                    if os.path.exists(temp_path):
-                        os.remove(temp_path)
-                        app.logger.debug(f"Deleted temp file: {temp_path}")
-                    current_user.avatar_path = avatar_path
-                    db.session.commit()
-                    flash('頭像更新成功！')
-                except Exception as e:
-                    flash(f'頭像上傳或裁切失敗：{str(e)}')
-                    app.logger.error(f"Error processing avatar: {str(e)}")
-                    if os.path.exists(temp_path):
-                        os.remove(temp_path)
-                    return redirect(url_for('edit_profile'))
-            else:
-                flash('無效的圖片檔案或格式不支援！')
-        return redirect(url_for('user_profile', user_id=current_user.id))
-    return render_template('edit_profile.html')
 
 # 初始化資料庫
 with app.app_context():
@@ -425,12 +403,10 @@ with app.app_context():
         ]
         db.session.bulk_save_objects(boards)
         db.session.commit()
-    # 初始創建管理員用戶（僅限開發環境）
     if not User.query.filter_by(username='yukari17').first():
         admin_user = User(username='yukari17', password_hash=generate_password_hash('admin123'), is_admin=True)
         db.session.add(admin_user)
         db.session.commit()
-        app.logger.info("Initial admin user 'yukari17' created.")
 
 if __name__ == '__main__':
     app.run(debug=True)

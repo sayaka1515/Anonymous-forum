@@ -1,101 +1,30 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ user.username }} 的個人頁面</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-</head>
-<body>
-    <header>
-        <h1>匿名論壇</h1>
-        <nav>
-            {% if current_user.is_authenticated %}
-                <a href="{{ url_for('user_profile', user_id=current_user.id) }}">
-                    {% if current_user.avatar_path and current_user.avatar_path|length > 0 %}
-                        <img src="{{ url_for('static', filename=current_user.avatar_path) }}" class="nav-avatar" alt="用戶頭像">
-                    {% else %}
-                        <span>{{ current_user.username }}</span>
-                    {% endif %}
-                </a>
-                <a href="{{ url_for('logout') }}">登出</a>
-                <a href="{{ url_for('create_post') }}">發布貼文</a>
-                {% if current_user.is_admin %}
-                    <a href="{{ url_for('create_board') }}">創建討論版</a>
-                {% endif %}
-            {% else %}
-                <a href="{{ url_for('login') }}">登入</a>
-                <a href="{{ url_for('register') }}">註冊</a>
-            {% endif %}
-            <a href="{{ url_for('index') }}">返回首頁</a>
-        </nav>
-    </header>
-    <main>
-        {% with messages = get_flashed_messages() %}
-            {% if messages %}
-                <ul class="flash-messages">
-                    {% for message in messages %}
-                        <li>{{ message }}</li>
-                    {% endfor %}
-                </ul>
-            {% endif %}
-        {% endwith %}
-        <div class="user-profile">
-            <h2>{{ user.username }}</h2>
-            {% if user.avatar_path and user.avatar_path|length > 0 %}
-                <img src="{{ url_for('static', filename=user.avatar_path) }}" class="profile-avatar" alt="用戶頭像">
-            {% else %}
-                <div class="no-avatar">無頭像</div>
-            {% endif %}
-            <p>身分：{{ role }}</p>
-            <p>註冊時間：{{ user.created_at }}</p>
-            {% if current_user.is_authenticated and current_user.id == user.id %}
-                <a href="{{ url_for('edit_profile') }}">編輯個人資料</a>
-            {% endif %}
-        </div>
-        <h3>發表的貼文</h3>
-        {% if posts %}
-            {% for post in posts %}
-                <div class="post">
-                    <h2>
-                        <a href="{{ url_for('board', board_id=post.board_id) }}">{{ post.board.name }}</a> | 
-                        <a href="{{ url_for('post', post_id=post.id) }}">{{ post.title }}</a>
-                    </h2>
-                    <p>
-                        {% if post.user.avatar_path and post.user.avatar_path|length > 0 %}
-                            <a href="{{ url_for('user_profile', user_id=post.user.id) }}">
-                                <img src="{{ url_for('static', filename=post.user.avatar_path) }}" class="avatar" alt="用戶頭像">
-                            </a>
-                        {% endif %}
-                        <a href="{{ url_for('user_profile', user_id=post.user.id) }}">{{ post.user.username }}</a> 
-                        於 {{ post.created_at }} 發布
-                    </p>
-                    <p>{{ post.content }}</p>
-                    {% if post.media_path %}
-                        {% set extension = post.media_path.split('.')[-1].lower() %}
-                        {% if extension in ['png', 'jpg', 'jpeg', 'gif'] %}
-                            <img src="{{ url_for('static', filename=post.media_path) }}" class="post-image" alt="貼文媒體">
-                        {% elif extension == 'mp4' %}
-                            <video controls class="post-video">
-                                <source src="{{ url_for('static', filename=post.media_path) }}" type="video/mp4">
-                                您的瀏覽器不支援影片播放。
-                            </video>
-                        {% endif %}
-                    {% endif %}
-                    {% if current_user.is_authenticated and (post.user_id == current_user.id or current_user.is_admin) %}
-                        <form action="{{ url_for('delete_post', post_id=post.id) }}" method="POST" onsubmit="return confirmDelete('貼文');">
-                            <button type="submit" class="delete-btn">刪除貼文</button>
-                        </form>
-                    {% endif %}
-                </div>
-            {% endfor %}
-        {% else %}
-            <p>尚未發表任何貼文。</p>
-        {% endif %}
-    </main>
-    <script>
-        function confirmDelete(type) {
-            return confirm(`確定要刪除此${type}？`);
-        }
-    </script>
-</body>
-</html>
+{% extends "base.html" %}
+  {% block title %}用戶資料{% endblock %}
+  {% block extra_css %}
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/profile.css') }}">
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/avatar.css') }}">
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/post.css') }}">
+  {% endblock %}
+  {% block content %}
+      <h1>用戶資料</h1>
+      <a href="{{ url_for('index') }}">返回首頁</a>
+      <div class="user-profile">
+          <img src="{{ url_for('static', filename='sayakaanony.png') }}" alt="User Avatar" class="profile-avatar">
+          <h2>用戶名: {{ user.username }}</h2>
+          <p>角色: {{ role }}</p>
+          <h3>發文記錄</h3>
+          {% for post in posts %}
+              <div class="post">
+                  <h4>{{ post.title }}</h4>
+                  <p>{{ post.content }}</p>
+                  <small>發文時間: {{ post.created_at }}</small>
+                  <a href="{{ url_for('post', post_id=post.id) }}">查看</a>
+                  {% if current_user.is_authenticated and (current_user.id == post.user_id or current_user.is_admin) %}
+                      <form action="{{ url_for('delete_post', post_id=post.id) }}" method="post" style="display:inline;">
+                          <button type="submit" class="delete-btn">刪除</button>
+                      </form>
+                  {% endif %}
+              </div>
+          {% endfor %}
+      </div>
+  {% endblock %}

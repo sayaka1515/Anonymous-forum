@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+    {% block title %}{{ board.name }}{% endblock %}
+    {% block extra_css %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/post.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/avatar.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/board.css') }}">
+    {% endblock %}
+    {% block content %}
+        <h1>{{ board.name }}</h1>
+        <p>{{ board.description }}</p>
+        {% if current_user.is_authenticated and current_user.is_admin %}
+            <a href="{{ url_for('edit_board', board_id=board.id) }}">編輯討論版</a>
+            <form action="{{ url_for('delete_board', board_id=board.id) }}" method="post" style="display:inline;">
+                <button type="submit" class="delete-btn">刪除討論版</button>
+            </form>
+        {% endif %}
+        <h2>貼文</h2>
+        {% for post in posts %}
+            <div class="post">
+                <img src="{{ url_for('static', filename='sayakaanony.png') }}" alt="User Avatar" class="avatar">
+                <h3>{{ post.title }}</h3>
+                <p>{{ post.content }}</p>
+                {% if post.media_path %}
+                    {% if post.media_ext == 'mp4' %}
+                        <video controls>
+                            <source src="{{ url_for('static', filename=post.media_path) }}" type="video/mp4">
+                            您的瀏覽器不支援影片播放。
+                        </video>
+                    {% else %}
+                        <img src="{{ url_for('static', filename=post.media_path) }}" alt="Post Media">
+                    {% endif %}
+                {% endif %}
+                <small>發文時間: {{ post.created_at }}</small>
+                <a href="{{ url_for('post', post_id=post.id) }}">查看</a>
+                {% if current_user.is_authenticated and (current_user.id == post.user_id or current_user.is_admin) %}
+                    <form action="{{ url_for('delete_post', post_id=post.id) }}" method="post" style="display:inline;">
+                        <button type="submit" class="delete-btn">刪除</button>
+                    </form>
+                {% endif %}
+            </div>
+        {% endfor %}
+        {% if current_user.is_authenticated %}
+            <a href="{{ url_for('create_post') }}">發新貼</a>
+        {% endif %}
+        <a href="{{ url_for('index') }}">返回首頁</a>
+    {% endblock %}

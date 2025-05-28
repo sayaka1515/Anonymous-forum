@@ -1,0 +1,67 @@
+.auth-container, .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2em;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.auth-container h2, .form-container h2 {
+    margin-bottom: 1em;
+    color: #333;
+}
+.form-group {
+    margin-bottom: 1em;
+    text-align: left;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #555;
+}
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+.form-group textarea {
+    height: 150px;
+    resize: vertical;
+}
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #333;
+}
+.form-group input[type="file"] {
+    padding: 0.2em 0;
+}
+button {
+    background-color: #333;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1em;
+}
+button:hover {
+    background-color: #555;
+}
+.auth-container p, .form-container p {
+    margin-top: 1em;
+}
+.auth-container a, .form-container a {
+    color: #333;
+    text-decoration: none;
+}
+.auth-container a:hover, .form-container a:hover {
+    text-decoration: underline;
+}
