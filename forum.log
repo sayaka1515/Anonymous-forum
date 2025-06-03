@@ -3365,3 +3365,29 @@
 2025-05-28 22:38:17,018 - INFO - 127.0.0.1 - - [28/May/2025 22:38:17] "[36mGET /static/sayakaanony.png HTTP/1.1[0m" 304 -
 2025-05-28 22:38:17,020 - INFO - 127.0.0.1 - - [28/May/2025 22:38:17] "[36mGET /static/uploads/65b908d938ea4dc2a54356b16ec2ecf6_1748443077_yilis.gif HTTP/1.1[0m" 304 -
 2025-05-28 22:38:17,041 - INFO - 127.0.0.1 - - [28/May/2025 22:38:17] "[36mGET /static/comment-icon.png HTTP/1.1[0m" 304 -
+2025-06-03 19:10:24,921 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-03 19:10:24,922 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 19:10:24,928 - INFO -  * Restarting with stat
+2025-06-03 19:10:25,406 - WARNING -  * Debugger is active!
+2025-06-03 19:10:25,412 - INFO -  * Debugger PIN: 128-467-688
+2025-06-03 19:10:28,699 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:28] "GET / HTTP/1.1" 200 -
+2025-06-03 19:10:29,659 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:29] "[36mGET /static/sayakaanony.png HTTP/1.1[0m" 304 -
+2025-06-03 19:10:29,661 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:29] "GET /static/uploads/65b908d938ea4dc2a54356b16ec2ecf6_1748443077_yilis.gif HTTP/1.1" 200 -
+2025-06-03 19:10:29,661 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:29] "[36mGET /static/css/avatar.css HTTP/1.1[0m" 304 -
+2025-06-03 19:10:29,662 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:29] "[36mGET /static/css/board.css HTTP/1.1[0m" 304 -
+2025-06-03 19:10:29,671 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:29] "[36mGET /static/comment-icon.png HTTP/1.1[0m" 304 -
+2025-06-03 19:10:29,673 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:29] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2025-06-03 19:10:29,674 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:29] "[36mGET /static/css/post.css HTTP/1.1[0m" 304 -
+2025-06-03 19:10:29,953 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-03 19:10:32,850 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:32] "GET / HTTP/1.1" 200 -
+2025-06-03 19:10:32,868 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:32] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2025-06-03 19:10:32,870 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:32] "[36mGET /static/css/post.css HTTP/1.1[0m" 304 -
+2025-06-03 19:10:32,871 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:32] "[36mGET /static/css/avatar.css HTTP/1.1[0m" 304 -
+2025-06-03 19:10:32,873 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:32] "[36mGET /static/css/board.css HTTP/1.1[0m" 304 -
+2025-06-03 19:10:32,875 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:32] "[36mGET /static/sayakaanony.png HTTP/1.1[0m" 304 -
+2025-06-03 19:10:32,875 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:32] "[36mGET /static/uploads/65b908d938ea4dc2a54356b16ec2ecf6_1748443077_yilis.gif HTTP/1.1[0m" 304 -
+2025-06-03 19:10:32,896 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:32] "[36mGET /static/comment-icon.png HTTP/1.1[0m" 304 -
+2025-06-03 19:10:37,602 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:37] "GET /login HTTP/1.1" 200 -
+2025-06-03 19:10:37,621 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:37] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2025-06-03 19:10:37,631 - INFO - 127.0.0.1 - - [03/Jun/2025 19:10:37] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -

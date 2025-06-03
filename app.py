@@ -403,22 +403,32 @@ def user_profile(user_id):
 
 # 初始化資料庫
 with app.app_context():
-    db.drop_all()
-    db.create_all()
-    if not Board.query.first():
-        boards = [
-            Board(name='綜合討論', description='各種話題的綜合討論區'),
-            Board(name='科技交流', description='討論科技新知與技術分享'),
-            Board(name='生活分享', description='分享生活點滴與經驗'),
-            Board(name='遊戲天地', description='電玩遊戲與攻略討論'),
-            Board(name='美食天地', description='美食推薦與烹飪心得')
-        ]
-        db.session.bulk_save_objects(boards)
-        db.session.commit()
-    if not User.query.filter_by(username='yukari17').first():
-        admin_user = User(username='yukari17', password_hash=generate_password_hash('admin123'), is_admin=True)
-        db.session.add(admin_user)
-        db.session.commit()
+    db_path = os.path.join(BASE_DIR, "forum.db")
+    if not os.path.exists(db_path):
+        try:
+            db.create_all()
+            if not Board.query.first():
+                boards = [
+                    Board(name='綜合討論', description='各種話題的綜合討論區'),
+                    Board(name='科技交流', description='討論科技新知與技術分享'),
+                    Board(name='生活分享', description='分享生活點滴與經驗'),
+                    Board(name='遊戲天地', description='電玩遊戲與攻略討論'),
+                    Board(name='美食天地', description='美食推薦與烹飪心得')
+                ]
+                db.session.bulk_save_objects(boards)
+                db.session.commit()
+            if not User.query.filter_by(username='yukari17').first():
+                admin_user = User(username='yukari17', password_hash=generate_password_hash('admin123'), is_admin=True)
+                db.session.add(admin_user)
+                db.session.commit()
+        except Exception as e:
+            app.logger.error(f"Database initialization failed: {str(e)}")
+            db.session.rollback()
+    else:
+        try:
+            db.create_all()
+        except Exception as e:
+            app.logger.error(f"Database schema sync failed: {str(e)}")
 
 if __name__ == '__main__':
     app.run(debug=True)
